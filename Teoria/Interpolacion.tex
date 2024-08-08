@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} 
+\usepackage{float}
+\usepackage{placeins}
+
+\author{Vale Fernando Alexis}
+\begin{document}
+\section{Introdución a la interpolación}
+  \subsection{Interpolación Spline Cuadrática}
+  Es una técnica para crear una función suave que pase a través de un conjunto 
+  de puntos dados. Muy diferente a la interpolación lineal, que conecta los puntos 
+  con segmentos de línea recta. En éste caso se usa polinomios (grado 2) para crear
+  dicha curva \textbf{suave}.\par
+    \subsubsection{Concepto Básico}
+    La idea es dividir el rango de datos en segmentos y, para cada segmento, ajustar 
+    un polinomio cuadrático (de segundo grado). Estos polinomios están construidos de 
+    manera que sean continuos en el punto de unión, es decir, la curva es suave en todos 
+    los puntos de datos.
+    \subsubsection{Pasos para Implementar la Interpolación Spline Cuadrática}
+     \begin{enumerate}
+        \item Dividir los puntos de datos en segmentos. Si tienes $n$ puntos, tendrás $n-1$ segmentos.
+        \item Ajustar un polinomio cuadrático a cada segmento. La forma general de un polinomio cuadrático es:
+        \[S_i(x) = a_i (x - x_i)^2 + b_i (x - x_i) + c_i\]
+        donde $a_i$, $b_i$, y $c_i$ son los coeficientes del polinomio para el segmento $i$, y $x_i$ es el punto 
+        de inicio del segmento.
+        \item Imponer condiciones de continuidad: Los polinomios deben coincidir en el valor y en la primera 
+        derivada en los puntos de unión.
+      \end{enumerate}
+
+\subsection{Interpolación Spline Cúbica}
+La interpolación Spline Cúbica: Es una Técnica matemática utilizada para 
+aproximar una curva SUAVE que pasa por un conjunto dado de puntos. Es especialmente
+útil en situaciones en las que tenemos puntos de datos dispersos y queremos crear 
+una curva continua que captura una tendencia general.
+Luego podemos usar esa curva apara encontrar información valiosa sobre nuestros
+datos. 
+
+\end{document}

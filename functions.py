@@ -96,6 +96,10 @@ tck, u = splprep([latitudes, longitudes, elevations], s=0)
 u_new = np.linspace(0, 1, 100)
 latitudes_interpoladas, longitudes_interpoladas, elevaciones_interpoladas = splev(u_new, tck)
 
+print("valores de tck:\n",tck)
+
+"""
+
 # Paso 2: Crear una malla regular y realizar interpolación
 # Crear la malla regular para latitudes y longitudes
 x_grid = np.linspace(min(latitudes_interpoladas), max(latitudes_interpoladas), 10)
@@ -130,12 +134,12 @@ plt.show()
 print("Latitudes Interpoladas:", latitudes_interpoladas)
 print("Longitudes Interpoladas:", longitudes_interpoladas)
 print("Alturas Interpoladas:", elevaciones_interpoladas, len(elevaciones_interpoladas))
-
+"""
 
 
 
 ##### Guardar.
-
+"""
 # Asegúrate de que las longitudes, latitudes y elevaciones tengan la misma longitud
 if not (len(latitudes_interpoladas) == len(longitudes_interpoladas) == len(elevaciones_interpoladas)):
     raise ValueError("Latitudes, longitudes y elevaciones deben tener la misma longitud.")
@@ -164,5 +168,5 @@ df.to_csv('./dataset/output_data.csv', index=False)
 
 print("Datos guardados en 'output_data.csv'")
 
-"""
+
 """
