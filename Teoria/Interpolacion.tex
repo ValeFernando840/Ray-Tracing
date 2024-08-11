@@ -5,86 +5,13 @@
 
 \author{Vale Fernando Alexis}
 \begin{document}
-\section{Tipos de Interpolación}
-
-La interpolación es una técnica utilizada para estimar valores intermedios 
-entre puntos de datos conocidos. A continuación, se describen varios métodos 
-de interpolación, cada uno con sus características y aplicaciones:
-
-\subsection{Interpolación Lineal (\texttt{linear})}
-Este es el método más simple, que conecta dos puntos adyacentes con una 
-línea recta. Es adecuado para datos que siguen una tendencia lineal y 
-proporciona una transición suave entre puntos.
-
-\subsection{Interpolación Más Cercana (\texttt{nearest})}
-Este método asigna al punto interpolado el valor del punto de datos más
- cercano. Es útil cuando se requiere que los valores interpolados sean 
- iguales a los puntos de datos originales, sin generar valores intermedios.
-
-\subsection{Interpolación Más Cercana hacia Arriba (\texttt{nearest-up})}
-Similar a \texttt{nearest}, pero siempre selecciona el siguiente valor más 
-cercano hacia arriba. Es útil cuando se desea evitar subestimaciones.
-
-\subsection{Interpolación por Zonas (\texttt{zero})}
-Este método mantiene constantes los valores de la interpolación hasta el 
-siguiente punto de datos, lo que produce una función por partes. Es útil 
-en sistemas donde los valores cambian bruscamente.
-
-\subsection{Interpolación Lineal Segmentada (\texttt{slinear})}
-Una versión mejorada de la interpolación lineal, que utiliza segmentos 
-lineales entre puntos de datos. Es más suave que la interpolación lineal 
-simple, especialmente en datos no lineales.
-
-\subsection{Interpolación Cuadrática (\texttt{quadratic})}
-Utiliza polinomios de segundo grado para interpolar entre puntos. 
-Es más preciso que los métodos lineales en datos con curvaturas suaves y no lineales.
-
-\subsection{Interpolación Cúbica (\texttt{cubic})}
-Este método utiliza polinomios de tercer grado y es altamente adecuado 
-para datos que requieren una curva suave y continua. Proporciona una mejor 
-aproximación que los métodos lineales y cuadráticos.
-
-\subsection{Interpolación Previa (\texttt{previous})}
-Asigna al punto interpolado el valor del punto de datos anterior. Es útil en 
-situaciones donde los valores deben permanecer constantes hasta el próximo 
-cambio de datos.
-
-\subsection{Comparación de Métodos}
-Cada método de interpolación tiene aplicaciones específicas dependiendo de la 
-naturaleza del conjunto de datos y la suavidad deseada en la curva de interpolación. 
-Los métodos lineales son simples y rápidos, pero pueden ser inexactos en datos 
-con cambios no lineales. Los métodos cuadráticos y cúbicos son más complejos, 
-pero ofrecen una mayor precisión y suavidad en la interpolación.
-
-
 \section{Introdución a la interpolación}
-  \subsection{Interpolación Spline Cuadrática}
-  Es una técnica para crear una función suave que pase a través de un conjunto 
-  de puntos dados. Muy diferente a la interpolación lineal, que conecta los puntos 
-  con segmentos de línea recta. En éste caso se usa polinomios (grado 2) para crear
-  dicha curva \textbf{suave}.\par
-    \subsubsection{Concepto Básico}
-    La idea es dividir el rango de datos en segmentos y, para cada segmento, ajustar 
-    un polinomio cuadrático (de segundo grado). Estos polinomios están construidos de 
-    manera que sean continuos en el punto de unión, es decir, la curva es suave en todos 
-    los puntos de datos.
-    \subsubsection{Pasos para Implementar la Interpolación Spline Cuadrática}
-     \begin{enumerate}
-        \item Dividir los puntos de datos en segmentos. Si tienes $n$ puntos, tendrás $n-1$ segmentos.
-        \item Ajustar un polinomio cuadrático a cada segmento. La forma general de un polinomio cuadrático es:
-        \[S_i(x) = a_i (x - x_i)^2 + b_i (x - x_i) + c_i\]
-        donde $a_i$, $b_i$, y $c_i$ son los coeficientes del polinomio para el segmento $i$, y $x_i$ es el punto 
-        de inicio del segmento.
-        \item Imponer condiciones de continuidad: Los polinomios deben coincidir en el valor y en la primera 
-        derivada en los puntos de unión.
-      \end{enumerate}
-
-\subsection{Interpolación Spline Cúbica}
-La interpolación Spline Cúbica: Es una Técnica matemática utilizada para 
-aproximar una curva SUAVE que pasa por un conjunto dado de puntos. Es especialmente
-útil en situaciones en las que tenemos puntos de datos dispersos y queremos crear 
-una curva continua que captura una tendencia general.
-Luego podemos usar esa curva apara encontrar información valiosa sobre nuestros
-datos. 
+  \input{interpolacion/tipos.tex}
+\section{Interpolación Spline Cuadrática}
+  \input{interpolacion/spline-cuadratica.tex}
+\section{Interpolación Spline Cúbica}
+  \input{interpolacion/spline-cubica.tex}
+\section{splprep - SciPy}
+\input{interpolacion/splprep-ScipPy.tex}
 
 \end{document}
