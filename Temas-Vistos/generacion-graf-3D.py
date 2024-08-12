@@ -27,30 +27,3 @@ ax.set_zlabel('Eje Z')
 
 # Mostramos la gráfica
 plt.show()
-
-
-"""
-import numpy as np
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-
-# Generamos puntos en una curva 3D usando una función paramétrica
-t = np.linspace(0, 2*np.pi, 20)  # 20 puntos a lo largo de la curva
-x = np.sin(t)
-y = np.cos(t)
-z = t
-
-# Graficamos los puntos en 3D
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.plot(x, y, z, marker='o', linestyle='-', color='b')
-
-# Añadimos etiquetas a los ejes
-ax.set_xlabel('Eje X')
-ax.set_ylabel('Eje Y')
-ax.set_zlabel('Eje Z')
-
-# Mostramos la gráfica
-plt.show()
-
-"""
