@@ -1,0 +1,30 @@
+La función \textbf{splev} es parte del módulo \texttt{scipy.interpolate} y se 
+utiliza para evaluar un spline en puntos específicos. Después de haber ajustado 
+un spline usando \texttt{splprep}, puedes usar \texttt{splev} para calcular el 
+valor del spline en cualquier conjunto de parámetros.
+
+\subsection*{¿Cómo funciona \texttt{splev}?}
+
+\textbf{splev} toma un conjunto de valores de parámetros y un objeto spline 
+(generalmente el resultado de \texttt{splprep}) y devuelve los valores 
+correspondientes del spline en esos puntos.
+
+\subsection*{Parámetros importantes}
+
+\begin{itemize}
+    \item \texttt{u}: Un array de valores de parámetros en los cuales deseas 
+    evaluar el spline. Estos valores deben estar en el rango \texttt{[0, 1]} 
+    si no has especificado otro rango en \texttt{splprep}.
+    \item \texttt{tck}: El objeto spline, que es el resultado de la función 
+    \texttt{splprep}. Contiene la información sobre el spline, incluyendo el 
+    vector de nodos, los coeficientes y el grado del spline.
+\end{itemize}
+
+\subsection*{Resultado}
+
+\begin{itemize}
+    \item \texttt{values}: Un array de valores que corresponde a la evaluación 
+    del spline en los puntos especificados por \texttt{u}. Si estás trabajando 
+    en un espacio multidimensional, este será una lista de arrays, uno para cada 
+    dimensión.
+\end{itemize}
