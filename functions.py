@@ -109,30 +109,30 @@ R = 6.371E6  # Radio ecuatorial en metros
 #     return np.deg2rad(degrees)
 
 
-def geodetic_to_cartesian(latitudes, longitudes, elevaciones):
-    latitudes_rad = np.deg2rad(latitudes)
-    longitudes_rad = np.deg2rad(longitudes)
+# def geodetic_to_cartesian(latitudes, longitudes, elevaciones):
+#     latitudes_rad = np.deg2rad(latitudes)
+#     longitudes_rad = np.deg2rad(longitudes)
     
-    x = (R + elevaciones) * np.cos(latitudes_rad) * np.sin(longitudes_rad)
-    y = (R + elevaciones) * np.sin(latitudes_rad) * np.sin(longitudes_rad)
-    z = (R + elevaciones) * np.cos(latitudes_rad)
+#     x = (R + elevaciones) * np.cos(latitudes_rad) * np.sin(longitudes_rad)
+#     y = (R + elevaciones) * np.sin(latitudes_rad) * np.sin(longitudes_rad)
+#     z = (R + elevaciones) * np.cos(latitudes_rad)
     
-    return x, y, z
+#     return x, y, z
 
-x,y,z = geodetic_to_cartesian(latitudes_interpoladas,longitudes_interpoladas,elevaciones_interpoladas)
-print(z[:10])
+# x,y,z = geodetic_to_cartesian(latitudes_interpoladas,longitudes_interpoladas,elevaciones_interpoladas)
+# print(z[:10])
 
-fig = plt.figure()
-ax = fig.add_subplot(projection='3d')
-ax.plot_surface(x,y, (z- 6.371E6)/1E3, rstride=1, cstride=1, cmap=cm.jet,
-                linewidth=0, antialiased=False)
-ax.scatter(x, y, z)
+# fig = plt.figure()
+# ax = fig.add_subplot(projection='3d')
+# ax.plot_surface(x,y, (z- 6.371E6)/1E3, rstride=1, cstride=1, cmap=cm.jet,
+#                 linewidth=0, antialiased=False)
+# ax.scatter(x, y, z)
 
-ax.set_xlabel('X')
-ax.set_ylabel('Y')
-ax.set_zlabel('Z')
+# ax.set_xlabel('X')
+# ax.set_ylabel('Y')
+# ax.set_zlabel('Z')
 
-plt.show()
+# plt.show()
 """
 # Paso 2: Crear una malla regular y realizar interpolación
 # Crear la malla regular para latitudes y longitudes
