@@ -165,6 +165,7 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     #print(rho,'\n',phi,'\n',theta)
     
     radio = rho * 1E3
+    print("radio:",radio)
     Lat = np.degrees((math.pi/2) - phi)
     Lon = np.degrees(theta)
     Alt = (radio - 6.371E6)
@@ -222,9 +223,7 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
         ax.set_ylabel("Longitud ($\\degree$)")
     plt.show()
     os.chdir(r"C:\Users\Alexis\Desktop\FACULTAD\Ray_Tracing-main\ray_tracing\dist\Release\Cygwin_1-Windows")
-    """
-    aquí podemos ingresar parte del codigo
-    """
+    
 
     return Retardo, Rango_Terrestre, Rango_Oblicuo, Lat_Final, Lon_Final, Alt_Final,Lat,Lon,Alt
 
@@ -257,16 +256,16 @@ def main():
     
     ##print(elevations) para 3 4 en fc tenemos valores malos en h
     
-    df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-    fc, elev, azim, Anio, mmdd, UTI, Hora,Retardo, Rango_Terrestre, Rango_slant, 
-    Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
+    # df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+    # fc, elev, azim, Anio, mmdd, UTI, Hora,Retardo, Rango_Terrestre, Rango_slant, 
+    # Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
     
     
-    fn.add_to_dataset(df)
-    fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
+    # fn.add_to_dataset(df)
+    # fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
+    
+    
     """
-    
-    
     Que es el o para qué me podría servir -> Retardo, Rango_slant?
     Para qué podriamos usar las Lat_, Long, Alt final ? 
     """
@@ -285,19 +284,3 @@ def main():
 # INICIO    
 if __name__ == '__main__':
     main()
-
-
-
-
-# Z = np.array([(5,6,7),(1,2,3)])
-# A = np.array([[0],[1],[2]]) # array (3,1)
-# B = A.ravel() # conviente array (3,1) --> (3,) array 1D
-# C = np.array([B]).transpose() #convierte array 1D (3,) --> (3,1)
-# D = A.reshape(-1) # conviente array (3,1) --> (3,) array 1D
-# H = np.array([[0,1,2],[3,4,5],[6,7,8]]) # array (3,1)
-# F = H.flatten() # (3,3) --> (9,) 1D
-
-# print(Z)
-# print(np.shape(Z.T))
-# print(np.shape(Z))
-

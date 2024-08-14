@@ -1,8 +1,10 @@
 import pandas as pd 
 import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import cm
 
 def simplified_array(elements):
-    new_array = elements.reshape(-1)
+    new_array = elements.reshape(-1) ###esto ya no será NECESARIO
     #print("New elements with different structure",new_array)
     return new_array
 
@@ -15,7 +17,8 @@ def generate_dataframe(latitude_position_tx, longitude_position_tx,
     latitudes = simplified_array(latitudes)
     longitudes = simplified_array(longitudes)
     elevations = simplified_array(elevations) 
-    
+    #TENIENDO LAS LATITUDES LONGITUDES Y ELEVACIONES INTERPOLADAS DEBO GUARDAR ESOS NUEVOS VALORES seguramente el nombre 
+    #de la funcion tenga que cambiarlo
     expander = len(elevations)  # I can use any (latitudes, longitudes,elevations)
     print("Tamaño" , expander)
     latitude_position_tx *= np.ones(expander)
@@ -87,19 +90,50 @@ latitudes = df['latitudes'].to_numpy() #Obtengo la col lat.. y la paso a numpy
 longitudes = df['longitudes'].to_numpy()
 elevations = df['elevations'].to_numpy()
 
-print("Latitudes originales: ",latitudes)
-print("Longitudes Originales: ",longitudes)
-print("elevaciones originales",elevations)
+# print("Latitudes originales: ",latitudes)
+# print("Longitudes Originales: ",longitudes)
+# print("elevaciones originales",elevations)
 
 # Paso 1: Interpolación spline
 tck, u = splprep([latitudes, longitudes, elevations], s=0)
 u_new = np.linspace(0, 1, 100)
 latitudes_interpoladas, longitudes_interpoladas, elevaciones_interpoladas = splev(u_new, tck)
 
-print("valores de tck:\n",tck)
 
+R = 6.371E6  # Radio ecuatorial en metros
+# f = 1/298.257223563  # Achatamiento de la Tierra
+# e = np.sqrt(f * (2 - f))  # Excentricidad de la Tierra
+
+# # Conversión de grados a radianes
+# def deg_to_rad(degrees):
+#     return np.deg2rad(degrees)
+
+
+def geodetic_to_cartesian(latitudes, longitudes, elevaciones):
+    latitudes_rad = np.deg2rad(latitudes)
+    longitudes_rad = np.deg2rad(longitudes)
+    
+    x = (R + elevaciones) * np.cos(latitudes_rad) * np.sin(longitudes_rad)
+    y = (R + elevaciones) * np.sin(latitudes_rad) * np.sin(longitudes_rad)
+    z = (R + elevaciones) * np.cos(latitudes_rad)
+    
+    return x, y, z
+
+x,y,z = geodetic_to_cartesian(latitudes_interpoladas,longitudes_interpoladas,elevaciones_interpoladas)
+print(z[:10])
+
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
+ax.plot_surface(x,y, (z- 6.371E6)/1E3, rstride=1, cstride=1, cmap=cm.jet,
+                linewidth=0, antialiased=False)
+ax.scatter(x, y, z)
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+
+plt.show()
 """
-
 # Paso 2: Crear una malla regular y realizar interpolación
 # Crear la malla regular para latitudes y longitudes
 x_grid = np.linspace(min(latitudes_interpoladas), max(latitudes_interpoladas), 10)
@@ -134,39 +168,4 @@ plt.show()
 print("Latitudes Interpoladas:", latitudes_interpoladas)
 print("Longitudes Interpoladas:", longitudes_interpoladas)
 print("Alturas Interpoladas:", elevaciones_interpoladas, len(elevaciones_interpoladas))
-"""
-
-
-
-##### Guardar.
-"""
-# Asegúrate de que las longitudes, latitudes y elevaciones tengan la misma longitud
-if not (len(latitudes_interpoladas) == len(longitudes_interpoladas) == len(elevaciones_interpoladas)):
-    raise ValueError("Latitudes, longitudes y elevaciones deben tener la misma longitud.")
-
-# Número total de columnas (3 por cada punto)
-num_points = len(latitudes_interpoladas)
-num_columns = num_points * 3
-
-# Crear un DataFrame con una única fila y 300 columnas
-data = {
-    f"Lat_{i+1}": [latitudes_interpoladas[i]] for i in range(num_points)
-}  # Crear las columnas de latitud
-
-data.update({
-    f"Lon_{i+1}": [longitudes_interpoladas[i]] for i in range(num_points)
-})  # Añadir las columnas de longitud
-
-data.update({
-    f"Elev_{i+1}": [elevaciones_interpoladas[i]] for i in range(num_points)
-})  # Añadir las columnas de elevación
-
-df = pd.DataFrame(data)
-
-# Guardar el DataFrame en un archivo .csv
-df.to_csv('./dataset/output_data.csv', index=False)
-
-print("Datos guardados en 'output_data.csv'")
-
-
 """
