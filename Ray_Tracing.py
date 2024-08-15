@@ -28,7 +28,7 @@ import Confi_Trazador
 from matplotlib import cm
 
 ############################
-import functions as fn
+#import functions as fn
 import pandas as pd 
 ############################
 class Posicion_Geo():
@@ -98,13 +98,15 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
             Lon_Obj: Longitud del Objetivo [º decimales]
             Alt_Obj: Altitud del Objetivo [m]
     """
-        
+    #########################################
     #Obtiene el directorio de trabajo actual
-    os.getcwd()
-    
-    
+    dir = os.getcwd()
+    nueva = "ray_tracing/dist/Release/Cygwin_1-Windows"
+    nuevaDireccion = os.path.join(dir, nueva)
+    os.chdir(nuevaDireccion)
+    #########################################
     #Cambia la ruta de trabajo
-    os.chdir(r"C:\Users\Alexis\Desktop\FACULTAD\Ray_Tracing-main\ray_tracing\dist\Release\Cygwin_1-Windows")
+    #os.chdir(r"C:\Users\admin\Desktop\Ray-Tracing\ray_tracing\dist\Release\Cygwin_1-Windows")
 
     #Lat_Tx = -42.28 # Latitud Geo.
     #Long_Tx = -63.4 # Longitud Geo.
@@ -222,7 +224,7 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
         ax.set_xlabel("Latitud ($\\degree$)")
         ax.set_ylabel("Longitud ($\\degree$)")
     plt.show()
-    os.chdir(r"C:\Users\Alexis\Desktop\FACULTAD\Ray_Tracing-main\ray_tracing\dist\Release\Cygwin_1-Windows")
+    os.chdir(nuevaDireccion)
     
 
     return Retardo, Rango_Terrestre, Rango_Oblicuo, Lat_Final, Lon_Final, Alt_Final,Lat,Lon,Alt
