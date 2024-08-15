@@ -129,39 +129,26 @@ latitudes_interpoladas, longitudes_interpoladas, elevaciones_interpoladas = sple
     u_new, tck
 )
 
-R = 6.371e6  # Radio ecuatorial en metros
-# # Conversión de grados a radianes
-# def deg_to_rad(degrees):
-#     return np.deg2rad(degrees)
+def convert_geo_coord_to_cartesian_coord(lat,long,elev):
+  a = 6378137  # Radio ecuatorial de la Tierra en metros
+  e = 0.08181919  # Excentricidad de la Tierra
+
+  lat_rad = np.radians(lat)
+  long_rad = np.radians(long)
+
+  # Cálculo del radio en la dirección del primer vertical (N)
+  N = a / np.sqrt(1 - e**2 * np.sin(lat_rad)**2)
+  
+  x = (N + elev) * np.cos(lat_rad) * np.cos(long_rad)
+  y = (N + elev) * np.cos(lat_rad) * np.sin(long_rad)
+  z = -( (1 - e**2) * N + elev ) * np.sin(lat_rad)
+
+  return x,y,z
+
+#x,y,z= convert_geo_coord_to_cartesian_coord(latitudes_interpoladas,longitudes_interpoladas,elevaciones_interpoladas)
 
 
-def geodetic_to_cartesian(latitudes, longitudes, elevaciones):
-    latitudes_rad = np.deg2rad(latitudes)
-    longitudes_rad = np.deg2rad(longitudes)
-
-    x = (R + elevaciones) * np.cos(latitudes_rad) * np.sin(longitudes_rad)
-    y = (R + elevaciones) * np.sin(latitudes_rad) * np.sin(longitudes_rad)
-    z = (R + elevaciones) * np.cos(latitudes_rad)
-
-    return x, y, z
-
-
-x, y, z = geodetic_to_cartesian(
-    latitudes_interpoladas, longitudes_interpoladas, elevaciones_interpoladas
-)
-print(z[:10])
-
-fig = plt.figure()
-ax = fig.add_subplot(projection="3d")
-# ax.plot_surface(x,y, (z- 6.371E6)/1E3, rstride=1, cstride=1, cmap=cm.jet,
-#                 linewidth=0, antialiased=False)
-ax.scatter(x, y, z)
-
-# ax.set_xlabel('X')
-# ax.set_ylabel('Y')
-# ax.set_zlabel('Z')
-
-plt.show()
+# plt.show()
 """
 # Paso 2: Crear una malla regular y realizar interpolación
 # Crear la malla regular para latitudes y longitudes

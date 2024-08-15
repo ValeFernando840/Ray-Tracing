@@ -28,7 +28,7 @@ import Confi_Trazador
 from matplotlib import cm
 
 ############################
-#import functions as fn
+import functions as fn
 import pandas as pd 
 ############################
 class Posicion_Geo():
@@ -105,7 +105,7 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     nuevaDireccion = os.path.join(dir, nueva)
     os.chdir(nuevaDireccion)
     #########################################
-    #Cambia la ruta de trabajo
+    #Se adapto para que la ruta quede de manera general
     #os.chdir(r"C:\Users\admin\Desktop\Ray-Tracing\ray_tracing\dist\Release\Cygwin_1-Windows")
 
     #Lat_Tx = -42.28 # Latitud Geo.
@@ -127,8 +127,7 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     
     #==============================================================================
     #print ("Inicio de Ray tracing \n")
-    
-    #PARA QUÉ SE EJECUTA EL ray_tracing.exe ??                                 
+                                     
     os.system("ray_tracing.exe")
     
     
@@ -172,21 +171,9 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     Lon = np.degrees(theta)
     Alt = (radio - 6.371E6)
     
-    """"
-    print("old type:",type(Alt))
-    print("Primera Version de Latitud",Lat,"\n")
-    new_lat = fn.simplified_array(Lat)
-    print("type:",type(new_lat))
-    print("New form:",new_lat)
-    """
-    """
-    #print("Latitudes",Lat,"\n")
-    #print("Longitudes",Lon,"\n")
-     """
     print("Alturas",Alt,"\n")
     print("Tamaño",len(Alt))    
     
-
     Lat_Final = Lat[-1]
     Lon_Final = Lon[-1]
     Alt_Final = Alt[-1]
@@ -219,10 +206,21 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
         ax.set_xticks([X[0,0], X[Pos_Lat_med,Pos_Lat_med], X[-1,-1]])
         Lat_min = round(Lat_Tx,2); Lat_max = round(Lat_Final.item(),2); Lat_med = round(float(Lon[Pos_Lat_med]),2)
         ax.set_xticklabels([Lat_min,Lat_med,Lat_max])
-        ax.set_zlabel("Altitud (km)")
         
+        ax.set_zlabel("Altitud (km)")
         ax.set_xlabel("Latitud ($\\degree$)")
         ax.set_ylabel("Longitud ($\\degree$)")
+
+
+        x,y,z = fn.convert_geo_coord_to_cartesian_coord(Lat,Lon,Alt)
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+        ax.scatter(x, y, z, c='blue', marker='o')
+        ax.set_xlabel('X')
+        ax.set_ylabel('Y')
+        ax.set_zlabel('Z')
+
+# plt.show()
     plt.show()
     os.chdir(nuevaDireccion)
     
