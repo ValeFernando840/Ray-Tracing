@@ -28,7 +28,7 @@ import Confi_Trazador
 from matplotlib import cm
 
 ############################
-import functions as fn
+#import functions as fn
 import pandas as pd 
 ############################
 class Posicion_Geo():
@@ -237,7 +237,7 @@ def main():
     
     Posicion_Tx = Posicion_Geo(Lat_Tx,Lon_Tx,Alt_Tx)       
     
-    Hora = 15 # Hora 24 hs
+    Hora = 0 # Hora 24 hs
     UTI = 0
     Fecha = "15-06-2010" # ddmmaa
     dia,mes,anio = Fecha.split("-")
