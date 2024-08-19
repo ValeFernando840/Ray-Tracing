@@ -23,12 +23,11 @@ import matplotlib.pyplot as plt
 import scipy 
 
 import math ##???
-import math as pi ##???
 import Confi_Trazador
 from matplotlib import cm
 
 ############################
-#import functions as fn
+import functions as fn
 import pandas as pd 
 ############################
 class Posicion_Geo():
@@ -212,17 +211,17 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
         ax.set_ylabel("Longitud ($\\degree$)")
 
 
-        x,y,z = fn.convert_geo_coord_to_cartesian_coord(Lat,Lon,Alt)
-        fig = plt.figure()
-        ax = fig.add_subplot(111, projection='3d')
-        ax.scatter(x, y, z, c='blue', marker='o')
-        ax.set_xlabel('X')
-        ax.set_ylabel('Y')
-        ax.set_zlabel('Z')
+        #x,y,z = fn.convert_geo_coord_to_cartesian_coord(Lat,Lon,Alt)
+        # fig = plt.figure()
+        # ax = fig.add_subplot(111, projection='3d')
+        # ax.scatter(x, y, z, c='blue', marker='o')
+        # ax.set_xlabel('X')
+        # ax.set_ylabel('Y')
+        # ax.set_zlabel('Z')
 
 # plt.show()
     plt.show()
-    os.chdir(nuevaDireccion)
+    os.chdir(dir)
     
 
     return Retardo, Rango_Terrestre, Rango_Oblicuo, Lat_Final, Lon_Final, Alt_Final,Lat,Lon,Alt
@@ -252,16 +251,15 @@ def main():
     
     [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
         Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-        fc, elev, azim, Anio, mmdd, UTI, Hora,plot= True) 
+        fc, elev, azim, Anio, mmdd, UTI, Hora,plot = False) 
     
     ##print(elevations) para 3 4 en fc tenemos valores malos en h
     
-    # df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-    # fc, elev, azim, Anio, mmdd, UTI, Hora,Retardo, Rango_Terrestre, Rango_slant, 
-    # Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
+    df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+    fc, elev, azim, Anio, mmdd, UTI, Hora,Retardo, Rango_Terrestre, Rango_slant, 
+    Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
     
-    
-    # fn.add_to_dataset(df)
+    fn.add_to_dataset(df)
     # fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
     
     

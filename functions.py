@@ -1,3 +1,5 @@
+from email import header
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -12,50 +14,14 @@ def simplified_array(elements):
     return new_array
 
 
-def generate_dataframe(
-    latitude_position_tx,
-    longitude_position_tx,
-    elevation_position_tx,
-    fc,
-    elev,
-    azim,
-    anio,
-    mmdd,
-    UTI,
-    hora,
-    retardo,
-    rango_terrestre,
-    rango_slant,
-    lat_final,
-    lon_final,
-    alt_final,
-    latitudes,
-    longitudes,
-    elevations,
-):
-    latitudes = simplified_array(latitudes)
-    longitudes = simplified_array(longitudes)
-    elevations = simplified_array(elevations)
-    # TENIENDO LAS LATITUDES LONGITUDES Y ELEVACIONES INTERPOLADAS DEBO GUARDAR ESOS NUEVOS VALORES seguramente el nombre
-    # de la funcion tenga que cambiarlo
-    expander = len(elevations)  # I can use any (latitudes, longitudes,elevations)
-    print("Tamaño", expander)
-    latitude_position_tx *= np.ones(expander)
-    longitude_position_tx *= np.ones(expander)
-    elevation_position_tx *= np.ones(expander)
-    fc *= np.ones(expander)
-    elev *= np.ones(expander)
-    azim *= np.ones(expander)
-    anio *= np.ones(expander)
-    mmdd = np.full(expander, mmdd)
-    UTI *= np.ones(expander)
-    hora *= np.ones(expander)
-    retardo *= np.ones(expander)
-    rango_terrestre *= np.ones(expander)
-    rango_slant *= np.ones(expander)
-    lat_final = np.full(expander, lat_final)
-    lon_final = np.full(expander, lon_final)
-    alt_final = np.full(expander, alt_final)
+def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_position_tx,
+  fc,elev,azim,anio,mmdd,UTI,hora,retardo,rango_terrestre,rango_slant,
+  lat_final,lon_final,alt_final,latitudes,longitudes,elevations):
+    latitudes = latitudes.flatten()
+    longitudes = longitudes.flatten()
+    elevations = elevations.flatten()
+    lat_interp, long_interp, elev_interp = interpolate3d(latitudes,longitudes,elevations)
+    # print("Tipo de dato(latitudes):" , latitudes, type(latitudes))
 
     # Create a Data Frame
     data = {
@@ -75,11 +41,10 @@ def generate_dataframe(
         "final_latitude": lat_final,
         "final_longitude": lon_final,
         "final_elevation": alt_final,
-        "latitudes": latitudes,
-        "longitudes": longitudes,
-        "elevations": elevations,
+        "latitudes": [lat_interp],
+        "longitudes": [long_interp],
+        "elevations": [elev_interp],
     }
-
     df = pd.DataFrame(data)
     # Show Data_Frame
     print("It is a new DataFrame:\n", df)
@@ -87,14 +52,17 @@ def generate_dataframe(
 
 
 def add_to_dataset(df):
-    df.to_csv(
-        "C:/Users/Alexis/Desktop/FACULTAD/Ray_Tracing-main/dataset/dataset.csv",
-        index=False,
-        header=True,
-        mode="a",
-    )
+    dir = os.getcwd()
+    nueva = "dataset"
+    nuevaDireccion = os.path.join(dir, nueva)
+    print("Directorio:",nuevaDireccion)
+    if os.path.isdir(nuevaDireccion):
+       print("Existe")
+  
+    df.to_csv(nuevaDireccion+"/dataset.csv", index=False, header = True)
+    # df.to_excel('output_dataset.xlsx', index=False)
     return
-
+#add_to_dataset()
 
 def coordinates_on_map(
     initial_latitude, initial_longitude, final_latitude, final_longitude
@@ -111,14 +79,14 @@ def coordinates_on_map(
 
 
 
-df = pd.read_csv("./dataset/dataset.csv")
+# df = pd.read_csv("./dataset/dataset.csv")
 
-latitudes = df["latitudes"].to_numpy()  # Obtengo la col lat.. y la paso a numpy
-longitudes = df["longitudes"].to_numpy()
-elevations = df["elevations"].to_numpy()
+# latitudes = df["latitudes"].to_numpy()  # Obtengo la col lat.. y la paso a numpy
+# longitudes = df["longitudes"].to_numpy()
+# elevations = df["elevations"].to_numpy()
 
 
-def interporlate3d(latitudes,longitudes,elevations):
+def interpolate3d(latitudes,longitudes,elevations):
   tck, u = splprep([latitudes, longitudes, elevations], s=0)
   u_new = np.linspace(0, 1, 100)
   lat_interp, long_interp, elev_interp = splev(u_new, tck)
@@ -141,7 +109,7 @@ def convert_geo_coord_to_cartesian_coord(lat,long,elev):
 
   return x,y,z
 
-a,b,c =  interporlate3d(latitudes,longitudes,elevations)
+#a,b,c =  interpolate3d(latitudes,longitudes,elevations)
 
 
 """
