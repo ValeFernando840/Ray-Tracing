@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
+from scipy.interpolate import griddata, splev, splprep
+from mpl_toolkits.mplot3d import Axes3D
 
 def simplified_array(elements):
     new_array = elements.reshape(-1)  ###esto ya no será NECESARIO
@@ -107,10 +109,7 @@ def coordinates_on_map(
 
 ##Pruebas
 
-import numpy as np
-from scipy.interpolate import griddata, splev, splprep
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
+
 
 df = pd.read_csv("./dataset/dataset.csv")
 
@@ -118,16 +117,13 @@ latitudes = df["latitudes"].to_numpy()  # Obtengo la col lat.. y la paso a numpy
 longitudes = df["longitudes"].to_numpy()
 elevations = df["elevations"].to_numpy()
 
-# print("Latitudes originales: ",latitudes)
-# print("Longitudes Originales: ",longitudes)
-# print("elevaciones originales",elevations)
 
-# Paso 1: Interpolación splin
-tck, u = splprep([latitudes, longitudes, elevations], s=0)
-u_new = np.linspace(0, 1, 100)
-latitudes_interpoladas, longitudes_interpoladas, elevaciones_interpoladas = splev(
-    u_new, tck
-)
+def interporlate3d(latitudes,longitudes,elevations):
+  tck, u = splprep([latitudes, longitudes, elevations], s=0)
+  u_new = np.linspace(0, 1, 100)
+  lat_interp, long_interp, elev_interp = splev(u_new, tck)
+  print("Latitudes Interp:",lat_interp[:10])
+  return lat_interp,long_interp,elev_interp
 
 def convert_geo_coord_to_cartesian_coord(lat,long,elev):
   a = 6378137  # Radio ecuatorial de la Tierra en metros
@@ -145,10 +141,9 @@ def convert_geo_coord_to_cartesian_coord(lat,long,elev):
 
   return x,y,z
 
-#x,y,z= convert_geo_coord_to_cartesian_coord(latitudes_interpoladas,longitudes_interpoladas,elevaciones_interpoladas)
+a,b,c =  interporlate3d(latitudes,longitudes,elevations)
 
 
-# plt.show()
 """
 # Paso 2: Crear una malla regular y realizar interpolación
 # Crear la malla regular para latitudes y longitudes
