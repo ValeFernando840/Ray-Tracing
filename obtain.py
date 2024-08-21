@@ -23,7 +23,7 @@ def barrido():
   horas = np.arange(24)
   df = pd.read_csv("dataset/dates2010.csv")
   i=0
-  for date in df["Date"]:
+  for date in df["Date"][:2]:
     for j in horas:
       print("Fecha:",date,"Hora:",j)
     i+=1

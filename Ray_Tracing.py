@@ -236,12 +236,12 @@ def main():
     
     Posicion_Tx = Posicion_Geo(Lat_Tx,Lon_Tx,Alt_Tx)       
     
-    Hora = 0 # Hora 24 hs
+    # Hora = 0 # Hora 24 hs
     UTI = 0
-    Fecha = "15-06-2010" # ddmmaa
-    dia,mes,anio = Fecha.split("-")
-    Anio = float(anio)
-    mmdd = mes + dia
+    # Fecha = "15-06-2010" # ddmmaa
+    # dia,mes,anio = Fecha.split("-")
+    # Anio = float(anio)
+    # mmdd = mes + dia
     elev = 5               #initial_value = 5
     azim = 98              #initial_value = 98
     Tipo_zona = "Rural"    #'Comercial' 'Residencial' 'Rural' 'Rural Tranquila' NO SE USA NO INFLUYE EN EL TRAZADO DE RAYOS? 
@@ -249,17 +249,33 @@ def main():
     fc = 10e6 # Hz   [3-30] initial_value = 10e6
     AB = 10e3 # Hz
     
-    [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
+    ##barrido
+    horas = np.arange(24)
+    df = pd.read_csv("dataset/dates2010.csv")
+    
+    for date in df["Date"][:1]:
+      dia,mes,anio = date.split("-")
+      mmdd = mes + dia
+      Anio = float(anio)
+      for hora in horas:
+        # print("Fecha:",date,"Hora:",hora)
+        [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
         Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-        fc, elev, azim, Anio, mmdd, UTI, Hora,plot = False) 
+        fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
+
+        df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+        fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_slant, 
+        Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
+
+        fn.add_to_dataset(df)
+      print("=====Agregando Nueva Muestra=====")
+
+
+
     
-    ##print(elevations) para 3 4 en fc tenemos valores malos en h
+     
+  
     
-    df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-    fc, elev, azim, Anio, mmdd, UTI, Hora,Retardo, Rango_Terrestre, Rango_slant, 
-    Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
-    
-    fn.add_to_dataset(df)
     # fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
     
     

@@ -40,10 +40,7 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
         "slant_range": rango_slant,
         "final_latitude": lat_final,
         "final_longitude": lon_final,
-        "final_elevation": alt_final,
-        # "latitudes": [lat_interp],
-        # "longitudes": [long_interp],
-        # "elevations": [elev_interp],
+        "final_elevation": alt_final
     }
     #expand arrays in columns sepatare
     for i in range(len(lat_interp)):
@@ -59,15 +56,15 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
 
 
 def add_to_dataset(df):
-    dir = os.getcwd()
-    nueva = "dataset"
-    nuevaDireccion = os.path.join(dir, nueva)
-    print("Directorio:",nuevaDireccion)
-    if os.path.isdir(nuevaDireccion):
+    address = os.getcwd()
+    new = "dataset"
+    new_address = os.path.join(address, new)
+    print("Directorio:",new_address)
+    if os.path.isdir(new_address):
        print("Existe")
   
-    df.to_csv(nuevaDireccion+"/dataset.csv", index=False, header = False)
-    # df.to_excel('output_dataset.xlsx', index=False)
+    df.to_csv(new_address+"/dataset.csv", index=False, header = False, mode = "a")
+    #df.to_excel(new_address+'/dataset.xlsx', index=False)
     return
 
 def coordinates_on_map(
@@ -118,39 +115,3 @@ def convert_geo_coord_to_cartesian_coord(lat,long,elev):
 #a,b,c =  interpolate3d(latitudes,longitudes,elevations)
 
 
-"""
-# Paso 2: Crear una malla regular y realizar interpolación
-# Crear la malla regular para latitudes y longitudes
-x_grid = np.linspace(min(latitudes_interpoladas), max(latitudes_interpoladas), 10)
-y_grid = np.linspace(min(longitudes_interpoladas), max(longitudes_interpoladas), 10)
-X, Y = np.meshgrid(x_grid, y_grid)
-
-# Convertir las coordenadas interpoladas en una malla para interpolación
-points = np.array([latitudes_interpoladas, longitudes_interpoladas]).T
-values = elevaciones_interpoladas
-grid_z = griddata(points, values, (X, Y), method='linear')
-
-# Visualización
-fig = plt.figure(figsize=(14, 7))
-ax = fig.add_subplot(121, projection='3d')
-ax.scatter(latitudes, longitudes, elevations, color='r', label='Datos Originales')
-#ax.scatter(latitudes_interpoladas, longitudes_interpoladas, elevaciones_interpoladas, color='b', label='Datos Interpolados')
-ax.set_xlabel('Latitud')
-ax.set_ylabel('Longitud')
-ax.set_zlabel('Elevación')
-ax.legend()
-
-ax2 = fig.add_subplot(122)
-contour = ax2.contourf(X, Y, grid_z, levels=20, cmap='viridis')
-fig.colorbar(contour, ax=ax2, label='Elevación')
-ax2.set_xlabel('Latitud')
-ax2.set_ylabel('Longitud')
-ax2.set_title('Interpolación en Malla Regular')
-
-plt.show()
-
-# Imprimir los nuevos valores interpolados
-print("Latitudes Interpoladas:", latitudes_interpoladas)
-print("Longitudes Interpoladas:", longitudes_interpoladas)
-print("Alturas Interpoladas:", elevaciones_interpoladas, len(elevaciones_interpoladas))
-"""
