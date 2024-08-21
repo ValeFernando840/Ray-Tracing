@@ -41,10 +41,17 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
         "final_latitude": lat_final,
         "final_longitude": lon_final,
         "final_elevation": alt_final,
-        "latitudes": [lat_interp],
-        "longitudes": [long_interp],
-        "elevations": [elev_interp],
+        # "latitudes": [lat_interp],
+        # "longitudes": [long_interp],
+        # "elevations": [elev_interp],
     }
+    #expand arrays in columns sepatare
+    for i in range(len(lat_interp)):
+      data[f'lat_{i+1}'] = lat_interp[i]
+    for i in range(len(long_interp)):
+      data[f'long_{i+1}'] = long_interp[i]
+    for i in range(len(elev_interp)):
+      data[f'elev_{i+1}'] = elev_interp[i]
     df = pd.DataFrame(data)
     # Show Data_Frame
     print("It is a new DataFrame:\n", df)
@@ -59,10 +66,9 @@ def add_to_dataset(df):
     if os.path.isdir(nuevaDireccion):
        print("Existe")
   
-    df.to_csv(nuevaDireccion+"/dataset.csv", index=False, header = True)
+    df.to_csv(nuevaDireccion+"/dataset.csv", index=False, header = False)
     # df.to_excel('output_dataset.xlsx', index=False)
     return
-#add_to_dataset()
 
 def coordinates_on_map(
     initial_latitude, initial_longitude, final_latitude, final_longitude
