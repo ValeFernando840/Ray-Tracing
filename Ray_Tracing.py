@@ -252,8 +252,8 @@ def main():
     ##barrido
     horas = np.arange(24)
     df = pd.read_csv("dataset/dates2010.csv")
-    
-    for date in df["Date"][:1]:
+    #desde el elemento 1 al elemento 30 de Date
+    for date in df["Date"][3:30]:
       dia,mes,anio = date.split("-")
       mmdd = mes + dia
       Anio = float(anio)

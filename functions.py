@@ -54,7 +54,6 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
     print("It is a new DataFrame:\n", df)
     return df
 
-
 def add_to_dataset(df):
     address = os.getcwd()
     new = "dataset"
@@ -62,9 +61,7 @@ def add_to_dataset(df):
     print("Directorio:",new_address)
     if os.path.isdir(new_address):
        print("Existe")
-  
     df.to_csv(new_address+"/dataset.csv", index=False, header = False, mode = "a")
-    #df.to_excel(new_address+'/dataset.xlsx', index=False)
     return
 
 def coordinates_on_map(
@@ -112,6 +109,13 @@ def convert_geo_coord_to_cartesian_coord(lat,long,elev):
 
   return x,y,z
 
-#a,b,c =  interpolate3d(latitudes,longitudes,elevations)
 
-
+def csv_to_excel():
+  address = os.getcwd()
+  new = "dataset"
+  new_address = os.path.join(address, new)
+  data = pd.read_csv(new_address+"/dataset.csv")
+  print(new_address)
+  data.to_excel(new_address+"/dataset_excel.xlsx",index=False)
+  return
+# csv_to_excel()
