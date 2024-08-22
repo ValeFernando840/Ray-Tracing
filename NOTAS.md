@@ -7,3 +7,15 @@
 ```
 venv\Scripts\activate
 ```
+## Uso Latex, que tengo que instalar ?
+### Para Windows
+- miktex.org/download
+- strawberryperl.com
+
+* Recordar: la Build de LaTex se tiene que generar en una carpeta especifica no encima del main.tex
+
+### Extensiones
+- LaTeX
+- LaTex Snippets
+- LaTex Workshop
+Éstas uso yo, si consideras otras mejor, _God! 
