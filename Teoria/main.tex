@@ -1,0 +1,282 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} 
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{amsmath}
+
+\author{Vale Fernando Alexis}
+\begin{document}
+\section{Introducción}
+La ionosfera existe entre aproximadamente entre los 50 y 1000 km sobre la 
+superficie de la tierra. La radiación del sol ioniza átomos y moléculas en 
+esta región, liberando electrones y creando una región de iones y electrones 
+libres. Sometidos al campo eléctrico externo de una señal de radio, estos 
+electrones libres y iones experimentan una fuerza que les ocasionará un 
+movimiento. Sin embargo, dado que la masa de los iones es mucho mayor a la masa 
+de los electrones, los movimientos iónicos son relativamente pequeños, lo mismo 
+ocurre con la colisión de electrones.
+La ionización de los rayos del sol produce densidades de electrones libres del 
+orden de $10^{10} $ a $10^{12}$ electrones por metro cúbico. Las capas de alta densidad 
+de electrones reciben nombres especiales: son llamadas capas D, E, F.
+Durante el día, la capa F se divide en dos capas llamadas F1 y F2, mientras que 
+la capa D desaparece completamente por la noche. 
+Las ondas de radio por debajo de los 40 MHz se ven afectadas significativamente 
+por la ionosfera, principalmente porque las ondas de radio en este rango de 
+frecuencia se reflejan de manera efectiva.
+
+    \begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{./Imagenes/DensidadElectrones.png}
+    \caption{Densidad de Electrones vs Altura}
+    \label{fig:first}
+    \end{figure}
+    \FloatBarrier
+\subsection{Propagación}
+Las ondas de radio de alta frecuencia (HF) se utilizan en varias aplicaciones, como comunicaciones 
+de larga distancia, detección y seguimiento por radar, utilizando la ionosfera como reflector para
+ aumentar el alcance en tierra. Debido a la complejidad teórica de la propagación de ondas 
+ electromagnéticas a través de la ionosfera, que es un plasma magnetizado, todavía sigue siendo 
+ un desafío establecer enlaces de radio y posiciones exactas con los sistemas de radar. El \textbf{ray tracing} 
+ se utiliza habitualmente para solucionar este problema por que permite calcular la trayectoria exacta 
+ de las ondas de radio, aunque requiere un conocimiento preciso de la ionosfera, que es un medio muy 
+ variable. A sus variaciones regulares (por ejemplo, diarias y estacionales), se suman las perturbaciones 
+ transitorias, como las perturbaciones ionosféricas viajeras(TID - Traveling Ionospheric Disturbances).
+ Observando el efecto de los TID de mediana escala (MSTID) sobre algunas características de las trayectorias 
+ de los rayos HF. Las MSTID a menudo se asocian con la acción de ondas de gravedad atmosféricas (GW), 
+ con períodos que van desde varios minutos hasta menos de una hora y velocidades de ~50 a 300 m/s.
+ El efecto de los TID en las trayectorias de los rayos puede provocar un desplazamiento Doppler de 
+ la señal recibida y cambios en las trayectorias de los rayos, lo que a su vez puede producir fluctuaciones 
+ aparentes en los ecos de retorno del objetivo en aplicaciones de radar y provocar errores de registro de 
+ coordenadas en radares sobre el horizonte. \par
+ También puede limitar el rendimiento de los algoritmos de detección de objetivos debido al rango asociado y 
+ la desviación azimut que puede hacer que un objetivo fijo parezca moverse varias decenas de kilómetros en unos 
+ pocos minutos.
+ 
+\section{La Ionosfera y sus diferentes capas}
+La ionosfera es una región de la atmósfera terrestre que está ionizada por la radiación 
+solar y se extiende aproximadamente desde los 50 Km hasta los 1000 Km de altitud. Se 
+puede dividir en varias capas o regiones, cada una con características específicas:\par
+\begin{itemize}
+    \item Capa D:
+    \begin{itemize}
+        \item \textbf{Altitud}: Aproximadamente entre 50 Km y 90 Km.
+        \item \textbf{Características}: Es la capa más baja y menos ionizada. Pre\-do\-mi\-na
+        durante el día y práctimanente desaparece durante la noche. La ionización es causada
+        principalmente por la radiación solar de baja energía y la radiación cósmica.
+    \end{itemize}
+    \item Capa E:
+    \begin{itemize}
+        \item \textbf{Altitud}: Aproximadamente entre 90 Km y 150 Km.
+        \item \textbf{Características}: También conocida como la región Kennelly-Heaviside, 
+        esta capa es más ionizada que la capa D. La ionización se debe a la radiacion ultravioleta
+        y los rayos X del sol. \par
+        Se mantiene durante el día y disminuye significativamnte durante la noche.
+    \end{itemize}
+    \item Capa F:
+    \begin{itemize}
+        \item \textbf{Altitud}: Aproximadamente entre 150 Km y 1000 Km.
+        \item \textbf{Características}: Esta capa se divide en dos subcapas durante el día:
+            \begin{itemize}
+                \item \textbf{F1}: Aproximadamente entre 150 Km y 250 Km. Se forma durante el día 
+                y desaparece durante la noche.
+                \item \textbf{F2}: Aproximadamente entre 250 Km y 1000 Km. Es la capa más alta y más persistente,
+                manteniéndose tanto de día como de noche. La ionización en esta capa es más 
+                fuerte debido a la radiación ultravioleta extrema y los rayos X.
+            \end{itemize}
+    \end{itemize}
+\end{itemize}
+La capa \textbf{F2} es la más importante para la reflexión de las ondas de radio en la banda de alta 
+frecuencia (HF), permitiendo la comunicación a larga distancia y el funcionamiento de los radares
+transhorizontales (OTHR)
+
+
+\subsection{Frecuencias para el aprovechamiento de la Ionosfera}
+El rango de frecuencias utilizado para aprovechar la ionosfera como reflector 
+en aplicaciones de radar, específicamente en los radares  transhorizontales (OTHR),
+es tipicamente dentro de las frecuencias de ondas decamétricas. Este rango se
+encuentra entre los \textbf{3 MHz y 30 Mhz} en la banda de frecuecias de alta 
+frecuencia (HF). Dentro de este rango:
+\begin{itemize}
+    \item \textbf{Frecuencias bajas(3-10 MHz)}: Son usadas para alcanzar distancias
+    más largas debido a su mejor propagación a través de la ionosfera durante la noche 
+    en condiciones de baja actividad solar.
+    \item  \textbf{Frecuencias altas(10-30 MHz)}: Se utilizan para distancias más
+    cortas y son más efectivas durante el día o en condiciones de alta actividad solar.
+\end{itemize}
+Estos rangos de frecuencia permiten que las ondas de radio sean reflejadas por la 
+ionosfera, lo que permite a los radares detectar objetos más allá del horizonte terrestre,
+significativamente el rango de detección.
+
+\subsection{Alcances de los Radares transhorizontales(OTHR)}
+Los alcances en distancia de los radares transhorizontales varían según la frecuencia 
+utilizada y las condiciones ionosféricas. Por ejemplo:
+\begin{itemize}
+    \item Frecuencias bajas (3-10 MHz):
+    \begin{itemize}
+        \item \textbf{Alcance típico}: Entre 1000 Km y 4000 Km.
+        \item \textbf{Condiciones óptimas}: Durante la noche o en periodos de baja actividad
+        solar, cuando la ionosfera es más estable y densa a altitudes más bajas.
+    \end{itemize}
+    \item Frecuencias altas(10-30 MHz):
+    \begin{itemize}
+        \item \textbf{Alcance típico}: Entre 500 Km y 2000 Km.
+        \item \textbf{Condiciones óptimas}: Durante el día o en periodos de alta actividad
+        solar, cuando la ionosfera es más ionizada y densa a moayores altitudes.
+    \end{itemize}
+\end{itemize}
+\subsection{Factores que afectan el alcance}
+\begin{itemize}
+    \item \textbf{Hora del día}: La ionosfera cambia considerablemente entre el día y 
+    la noche.Durante el día, la ionosfera es más ionizada debido a la radiación solar, 
+    lo que afecta la reflexión de ondas de radio.
+    \item \textbf{Actividad solar}: Altos niveles de actividad solar puedeen aumenar la
+    ionización de la ionosfera, afectando la capacidad de las ondas de radio ara ser reflejadas.
+    \item \textbf{Condiciones atmosféricas}: Las variaciones en la densidad de la ionosfera 
+    debido a las condiciones atmosféricas tambien influyen en el alcance del radar.
+\end{itemize}
+
+\subsection{Efectos de la Actividad Solar}
+La actividad solar afecta la reflexión de las ondas de radio en la ionosfera debido a 
+su influencia en la ionización de esta región de la atmósfera. La ionización de la 
+ionosfera depende principalmente de la radiación solar, particularmente de los rayos 
+ultravioleta (UV) y los rayos X.
+\begin{itemize}
+    \item Alta Actividad Solar:
+        \begin{itemize}
+            \item \textbf{Características}: Durante periodos de alta actividad solar, como 
+            los máximos solares en el ciclo solar de 11 años, la radiación UV y los rayos 
+            X aumentan, incrementando la ionización en todas las capas de la ionosfera.
+            \item \textbf{Impacto en la Reflexión}: La mayor ionización puede hacer que las 
+            capas más altas de la ionosfera, como la capa F2, sean más densas y reflectivas 
+            para las ondas de radio de alta frecuencia (HF). Sin embargo, la excesiva ionización 
+            también puede provocar una mayor absorción de las ondas en las capas más bajas, 
+            como la capa D, especialmente durante el día.
+            \item \textbf{Condiciones Óptimas}: Frecuencias más altas(10-30 MHz) tien\-den a reflejarse 
+            mejor durante estos periodos, permitiendo alcances más largos.
+            \item \textbf{Condiciones Subóptimas}: En casos de actividad solar estrema\-damente
+            alta, como durante las tormentas solares, la ionosfera puede volveerse demasiado turbulenta, 
+            causando irregularidades y pérdida de la señal reflejada.
+        \end{itemize}
+    \item Baja Actividad Solar:
+        \begin{itemize}
+            \item \textbf{Características}: Durante periodos de baja actividad solar, como los 
+            mínimos solares, la radiación UV y los rayos X disminuyen, resultando en una menor 
+            ionización de la ionosfera.
+            \item \textbf{Impacto en la Reflexión}: La ionización reducida puede limitar la 
+            efectividad de la reflexión de las ondas de radio, especialmente para las frecuencias 
+            más altas. Las frecuencias más bajas (3-10 MHz) pueden reflejarse mejor en estas 
+            condiciones.
+            \item \textbf{Condiciones Óptimas}: Frecuencias más bajas tienden a reflejarse mejor, 
+            permitiendo comunicaciones y detección a largas distancias durante la noche.
+            \item \textbf{Condiciones Subóptimas}: Durante el día, la reflexión puede ser menos 
+            efectiva debido a la menor ionización.
+        \end{itemize}
+\end{itemize}
+
+\subsection{ Mejores y Peores Condiciones}
+\begin{itemize}
+  \item Mejores Condiciones(Óptimas):
+    \begin{itemize}
+      \item \textbf{Moderada a Alta Actividad Solar}: Permite una buena io\-ni\-zación de la capa F2, 
+      facilitando la reflexión de las ondas de radio de alta frecuencia, especialmente durante el 
+      día.
+      \item \textbf{Noche de Baja Actividad Solar}: Las frecuencias más bajas pueden reflejarse
+      mejor, permitiendo comunicaciones a larga distancia.
+  \end{itemize}
+\end{itemize}
+\begin{itemize}
+  \item Peores Condiciones:
+  \begin{itemize}
+    \item \textbf{Tormentas solares}: Pueden causar una excesiva turbulencia en la ionosfera, 
+    resultando en pérdida de señal y comunicaciones i\-nes\-ta\-bles.
+    \item \textbf{Actividad Solar Extremadamente Baja}: Puede resultar en una ionización 
+    insuficiente, dificultando la reflexion de las ondas de radio, especialmente durante el día.
+  \end{itemize} 
+\end{itemize}
+Resumiendo, las condiciones óptimas para la reflexión de las ondas de radio en la ionosfera 
+ocurren durante periodos de moderada a alta actividad solar, donde la ionización es suficiente para
+reflejar las ondas, pero no tan intensa como para causar turbulencia o absorción excesiva
+
+
+\section{Introdución a la interpolación}
+  \input{interpolacion/tipos.tex}
+\section{Interpolación Spline Cuadrática}
+  \input{interpolacion/spline-cuadratica.tex}
+\section{Interpolación Spline Cúbica}
+  \input{interpolacion/spline-cubica.tex}
+\section{Función splprep - SciPy}
+  \input{interpolacion/splprep-SciPy.tex}
+\section{Función splev - SciPy}
+  \input{interpolacion/splev-scipy.tex}
+
+
+\section{Redes Neuronales}
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{./Imagenes/NeuronaBiologica.png}
+    \caption{Neoruona Biológica}
+    \label{fig:second}
+  \end{figure}
+  
+  \subsection{Red Neuronal y Red Neuronal Artificial}
+  Una \textbf{Red Neuronal} es un sistema de procesamiento de información inspirado en la estructura y 
+  funcionamiento del cerebro humano. Está compuesta por un conjunto de unidades llamadas neuronas, 
+  que están interconectadas entre sí. Cada neurona recibe una entrada, la procesa y transmite una 
+  salida, similar al comportamiento de las neuronas biológicas.\par
+  \medskip \noindent
+  Una \textbf{Red Neuronal Artificial (RNA)} es un modelo computacional diseñado para simular el funcionamiento 
+  de las redes neuronales biológicas. Estas redes están formadas por capas de neuronas artificiales o nodos. 
+  Las RNA se utilizan para realizar tareas de reconocimiento de patrones, clasificación, regresión y otras aplicaciones 
+  de inteligencia artificial.\par
+  \medskip
+  \textbf{Diferencias clave:}
+  \begin{itemize}
+    \item \textbf{Red Neuronal (biológica):} Se refiere a la red de neuronas en el cerebro u otros sistemas nerviosos, responsables de 
+    procesar la información en organismos vivos.
+    \item \textbf{Red Neuronal Artificial:} Es un modelo matemático y computacional que emula el comportamiento de las redes 
+    neuronales biológicas, utilizado en el ámbito de la inteligencia artificial y el aprendizaje automático.
+  \end{itemize}
+  \subsection{El Perceptrón}
+  El \textbf{Perceptrón}   es una de las arquitecturas ANN más simples, inventada en 1957 por Frank Rosenblatt. 
+  Es un modelo matemático inspirado en el funcionamiento de las neoronas biológicas.
+  
+  \textbf{Componentes del Perceptrón}
+
+  \begin{itemize}
+      \item \textbf{Entradas:}
+      \begin{itemize}
+          \item El perceptrón recibe múltiples entradas, cada una asociada con un peso. Estas entradas pueden ser características de un conjunto de datos.
+      \end{itemize}
+      
+      \item \textbf{Pesos:}
+      \begin{itemize}
+          \item A cada entrada se le asigna un peso que representa la importancia de esa entrada. Los pesos se ajustan durante el proceso de entrenamiento.
+      \end{itemize}
+      
+      \item \textbf{Suma ponderada:}
+      \begin{itemize}
+          \item El perceptrón calcula una suma ponderada de las entradas, es decir, cada entrada se multiplica por su peso correspondiente y luego se suman.
+          \[
+          z = \sum_{i=1}^{n} w_i \cdot x_i + b
+          \]
+          Donde \( z \) es la suma ponderada, \( w_i \) son los pesos, \( x_i \) son las entradas, y \( b \) es el sesgo (bias).
+      \end{itemize}
+    
+    \item \textbf{Función de activación:}
+    \begin{itemize}
+        \item El perceptrón utiliza una función de activación para determinar la salida. La función de activación más simple es la función escalón, que devuelve 1 si la suma ponderada es mayor que un umbral, y 0 en caso contrario.
+        \[
+        y = 
+        \begin{cases} 
+        1 & \text{si } z > \text{umbral} \\
+        0 & \text{si } z \leq \text{umbral}
+        \end{cases}
+        \]
+    \end{itemize}
+    
+    \item \textbf{Salida:}
+    \begin{itemize}
+        \item La salida del perceptrón es un valor binario (0 o 1), lo que lo convierte en un clasificador lineal.
+    \end{itemize}
+\end{itemize}
+  \end{document}

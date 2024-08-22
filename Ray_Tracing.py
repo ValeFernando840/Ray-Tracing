@@ -253,7 +253,7 @@ def main():
     horas = np.arange(24)
     df = pd.read_csv("dataset/dates2010.csv")
     #desde el elemento 1 al elemento 30 de Date
-    for date in df["Date"][3:30]:
+    for date in df["Date"][6:30]:
       dia,mes,anio = date.split("-")
       mmdd = mes + dia
       Anio = float(anio)
