@@ -3,6 +3,7 @@
 \usepackage{float}
 \usepackage{placeins}
 \usepackage{amsmath}
+\usepackage{hyperref}
 
 \author{Vale Fernando Alexis}
 \begin{document}
@@ -215,7 +216,7 @@ reflejar las ondas, pero no tan intensa como para causar turbulencia o absorció
     \centering
     \includegraphics[width=0.8\textwidth]{./Imagenes/NeuronaBiologica.png}
     \caption{Neoruona Biológica}
-    \label{fig:second}
+    \label{fig:segunda}
   \end{figure}
   
   \subsection{Red Neuronal y Red Neuronal Artificial}
@@ -264,7 +265,8 @@ reflejar las ondas, pero no tan intensa como para causar turbulencia o absorció
     
     \item \textbf{Función de activación:}
     \begin{itemize}
-        \item El perceptrón utiliza una función de activación para determinar la salida. La función de activación más simple es la función escalón, que devuelve 1 si la suma ponderada es mayor que un umbral, y 0 en caso contrario.
+        \item El perceptrón utiliza una función de activación para determinar la salida. La función de activación más 
+        simple es la función escalón, que devuelve 1 si la suma ponderada es mayor que un umbral, y 0 en caso contrario.
         \[
         y = 
         \begin{cases} 
@@ -279,4 +281,56 @@ reflejar las ondas, pero no tan intensa como para causar turbulencia o absorció
         \item La salida del perceptrón es un valor binario (0 o 1), lo que lo convierte en un clasificador lineal.
     \end{itemize}
 \end{itemize}
-  \end{document}
+  \section{Funciones de Activación}
+    \href{https://www.datacamp.com/es/tutorial/introduction-to-activation-functions-in-neural-networks}{Funciones de activación}
+    
+    Las funciones de activación son una componenete integral de las \textbf{redes neoronales} que les permite aprender
+    patrones complejos en los datos. Transforman la señal de entrada de un nodo de una red 
+    neuronal en una señal de salida que pasa a la capa siguiente. \par
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.8\textwidth]{./Imagenes/FuncionesdeActivacion.png}
+      \caption{Representacion de Red Neuronal}
+      \label{fig:tercera}
+    \end{figure}
+    
+    \noindent
+    Sin funciones de activación, las redes neuronales solo consistirían en ope\-ra\-ciones lineales como la multiplicación de matrices. 
+    Todas las capas realizarían transformaciones lineales de la entrada, y no se introducirían no linealidades.
+    \subsection*{Tipos de funciones de Activación}
+    Cada función de activación tiene sus propias propiedades y es adecuada para determinados casos de uso.
+    Utilizar la función de activación adecuada para la tarea conduce a un entrenamiento más rápido y 
+    a un mejor rendimiento.
+    \subsection*{Función de Activación Lineal}
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.8\textwidth]{./Imagenes/funcionActivacionLineal.png}
+      \caption{Representacion de Red Neuronal}
+      \label{fig:cuarta}
+    \end{figure}
+    
+    La función de activación lineal es la función de activación más sencilla, definida como:
+    \[ f(x) = x \]
+    El principal caso de uso de la función de activación lineal es en la capa de salida de una red neuronal 
+    utilizada para la regresión. Para los problemas de regresión en los que queremos prever un valor numérico, 
+    utilizar una función de activación lineal en la capa de salida garantiza que la red neuronal produzca un 
+    valor numérico. La función de activación lineal no reduce ni transforma la salida, por lo que se devuelve 
+    el valor real previsto.\par
+    Sin embargo, la función de activación lineal rara vez se utiliza en las capas ocultas de las redes neuronales. 
+    Esto se debe a que no proporciona ninguna no linealidad.
+
+    \subsection*{Función de Activación Sigmoide}
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./Imagenes/funcionSigmoide.png}
+        \caption{Función de Activación Sigmoide}
+        \label{fig:quinta}
+      \end{figure}
+    
+      La función de activación sigmoide, a menudo representada como \(\sigma(x)\), es una función infinitamente diferenciable 
+      históricamente importante en el desarrollo de las redes neuronales
+      \[ f(x) = \frac{1}{1+e^{-x}}\]
+      Toma una entrada de valor real y la reduce a un valor entre 0 y 1. La función sigmoide tiene una curva en forma de ``S'' 
+      que tiende a 0 para los números negativos grandes y a 1 para los números positivos grandes. Los resultados pueden interpretarse 
+      fácilmente como probabilidades, lo que la hace natural para los problemas de clasificación binaria.
+    \end{document}
