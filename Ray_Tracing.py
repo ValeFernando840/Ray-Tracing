@@ -157,7 +157,7 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     #PENDIENTE ¿?¿?
     Retardo = pos[-1,0]/1e3
     Rango_Oblicuo = pos[-1,1]*1e3
-    print("Retardo:", Retardo,'\n',"Rango Oblicuo:",Rango_Oblicuo)
+    #print("Retardo:", Retardo,'\n',"Rango Oblicuo:",Rango_Oblicuo)
     
     rho = pos[g,0]
     phi = pos[g,1]
@@ -165,12 +165,12 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     #print(rho,'\n',phi,'\n',theta)
     
     radio = rho * 1E3
-    print("radio:",radio)
+    #print("radio:",radio)
     Lat = np.degrees((math.pi/2) - phi)
     Lon = np.degrees(theta)
     Alt = (radio - 6.371E6)
     
-    print("Alturas",Alt,"\n")
+    print("Alturas Enviadas: ",Alt,"\n")
     print("Tamaño",len(Alt))    
     
     Lat_Final = Lat[-1]
@@ -193,7 +193,6 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
         surf = ax.plot_surface(X,Y, (Z- 6.371E6)/1E3, rstride=1, cstride=1, cmap=cm.jet,
                 linewidth=0, antialiased=False)
         
-
         ax.plot3D(X.ravel()[0],Y.ravel()[0],(Z.ravel()[0]-6.371E6)/1e3, '2',mew = 12,label = "Tx")
         ax.legend()
         
@@ -236,7 +235,7 @@ def main():
     
     Posicion_Tx = Posicion_Geo(Lat_Tx,Lon_Tx,Alt_Tx)       
     
-    # Hora = 0 # Hora 24 hs
+    # Hora = 10 # Hora 24 hs
     UTI = 0
     # Fecha = "15-06-2010" # ddmmaa
     # dia,mes,anio = Fecha.split("-")
@@ -253,10 +252,19 @@ def main():
     horas = np.arange(24)
     df = pd.read_csv("dataset/dates2010.csv")
     #desde el elemento 1 al elemento 30 de Date
-    for date in df["Date"][6:30]:
+    # [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
+    #     Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+    #     fc, elev, azim, Anio, mmdd, UTI, Hora,plot = False)
+
+
+
+    for date in df["Date"][15:365]:
       dia,mes,anio = date.split("-")
       mmdd = mes + dia
       Anio = float(anio)
+
+
+
       for hora in horas:
         # print("Fecha:",date,"Hora:",hora)
         [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
@@ -268,7 +276,7 @@ def main():
         Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
 
         fn.add_to_dataset(df)
-      print("=====Agregando Nueva Muestra=====")
+    print("=====Agregando Nueva Muestra=====")
 
 
 

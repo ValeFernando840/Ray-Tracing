@@ -51,7 +51,7 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
       data[f'elev_{i+1}'] = elev_interp[i]
     df = pd.DataFrame(data)
     # Show Data_Frame
-    print("It is a new DataFrame:\n", df)
+    #print("It is a new DataFrame:\n", df)
     return df
 
 def add_to_dataset(df):
@@ -87,9 +87,12 @@ def coordinates_on_map(
 
 
 def interpolate3d(latitudes,longitudes,elevations):
+  print("elevaciones sin Interpolar: ",elevations)
+ 
   tck, u = splprep([latitudes, longitudes, elevations], s=0)
   u_new = np.linspace(0, 1, 100)
   lat_interp, long_interp, elev_interp = splev(u_new, tck)
+  print("Elevaciones Interpoladas: ",elev_interp)
   print("Latitudes Interp:",lat_interp[:10])
   return lat_interp,long_interp,elev_interp
 
