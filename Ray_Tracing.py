@@ -157,12 +157,12 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     #PENDIENTE ¿?¿?
     Retardo = pos[-1,0]/1e3
     Rango_Oblicuo = pos[-1,1]*1e3
-    #print("Retardo:", Retardo,'\n',"Rango Oblicuo:",Rango_Oblicuo)
+    # print("Retardo:", Retardo,'\n',"Rango Oblicuo:",Rango_Oblicuo)
     
     rho = pos[g,0]
     phi = pos[g,1]
     theta = pos[g,2]
-    #print(rho,'\n',phi,'\n',theta)
+    # print(rho,'\n',phi,'\n',theta)
     
     radio = rho * 1E3
     #print("radio:",radio)
@@ -170,13 +170,13 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
     Lon = np.degrees(theta)
     Alt = (radio - 6.371E6)
     
-    print("Alturas Enviadas: ",Alt,"\n")
-    print("Tamaño",len(Alt))    
+    # print("Alturas Enviadas: ",Alt,"\n")
+    # print("Tamaño",len(Alt))    
     
     Lat_Final = Lat[-1]
     Lon_Final = Lon[-1]
     Alt_Final = Alt[-1]
-    print("Valores Finales de Lat,Lon,Alt",Lat_Final, Lon_Final, Alt_Final)
+    # print("Valores Finales de Lat,Lon,Alt",Lat_Final, Lon_Final, Alt_Final)
     
     Rango_Terrestre = Rango_Ground(Lat_Tx,Long_Tx,Lat_Final.item(),Lon_Final.item())
     
@@ -257,13 +257,11 @@ def main():
     #     fc, elev, azim, Anio, mmdd, UTI, Hora,plot = False)
 
 
-
+                        # 15
     for date in df["Date"][15:365]:
       dia,mes,anio = date.split("-")
       mmdd = mes + dia
       Anio = float(anio)
-
-
 
       for hora in horas:
         # print("Fecha:",date,"Hora:",hora)
@@ -275,7 +273,7 @@ def main():
         fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_slant, 
         Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
 
-        fn.add_to_dataset(df)
+        # fn.add_to_dataset(df)
     print("=====Agregando Nueva Muestra=====")
 
 

@@ -20,6 +20,9 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
     latitudes = latitudes.flatten()
     longitudes = longitudes.flatten()
     elevations = elevations.flatten()
+
+    lat_filt, long_filt, elev_filt = filter_on_elevations(latitudes,longitudes,elevations)
+    latitudes ,longitudes,elevations = filter_unique_coordinates(lat_filt,long_filt,elev_filt)
     lat_interp, long_interp, elev_interp = interpolate3d(latitudes,longitudes,elevations)
     # print("Tipo de dato(latitudes):" , latitudes, type(latitudes))
 
@@ -64,9 +67,8 @@ def add_to_dataset(df):
     df.to_csv(new_address+"/dataset.csv", index=False, header = False, mode = "a")
     return
 
-def coordinates_on_map(
-    initial_latitude, initial_longitude, final_latitude, final_longitude
-):
+def coordinates_on_map( initial_latitude, initial_longitude, 
+                      final_latitude, final_longitude):
     # I want only its value, the initial format is a array
     final_latitude = final_latitude[0]
     final_longitude = final_longitude[0]
@@ -85,16 +87,107 @@ def coordinates_on_map(
 # longitudes = df["longitudes"].to_numpy()
 # elevations = df["elevations"].to_numpy()
 
-
 def interpolate3d(latitudes,longitudes,elevations):
-  print("elevaciones sin Interpolar: ",elevations)
- 
-  tck, u = splprep([latitudes, longitudes, elevations], s=0)
-  u_new = np.linspace(0, 1, 100)
+  # print("Longitudes Recibidas: ",len(latitudes),len(longitudes),len(elevations))
+   #Verificar Longitudes
+  if len(latitudes) != len(longitudes) or len(longitudes) != len(elevations):
+    raise ValueError("Los arrays latitudes, longitudes y elevaciones deben tener la misma longitud")
+  # Verificar valores NaN o Inf
+  if np.any(np.isnan(latitudes)) or np.any(np.isnan(longitudes)) or np.any(np.isnan(elevations)):
+    raise ValueError("Los arrays contienen valores NaN")
+  
+  if np.any(np.isinf(latitudes)) or np.any(np.isinf(longitudes)) or np.any(np.isinf(elevations)):
+    raise ValueError("Los arrays contienen valores infinitos")
+
+  
+  tck, u = splprep([latitudes, longitudes, elevations], s=0,k=2)
+  u_new = np.linspace(0, 1, 101)
   lat_interp, long_interp, elev_interp = splev(u_new, tck)
-  print("Elevaciones Interpoladas: ",elev_interp)
-  print("Latitudes Interp:",lat_interp[:10])
+  
+  # ######################
+  data ={
+    "latitudes": lat_interp,
+    "longitudes": long_interp,
+    "elevations": elev_interp
+  }
+  df = pd.DataFrame(data)
+  address = os.getcwd()
+  new = "dataset"
+  new_address = os.path.join(address, new)
+  print("Direccion",str(new_address))
+  df.to_csv(new_address+"/coordenadas_interpoladas.csv", index=False, header = True) #mode = "a"
+  # ######################
+  # print("Latitudes Interpoladas: ",lat_interp)
+  # print("Longitudes Interpoladas: ",long_interp)
+  print("Elevaciones Interpoladas: ","maximo",max(elev_interp),elev_interp)
+  #print("Latitudes Interp:",lat_interp[:10])
   return lat_interp,long_interp,elev_interp
+
+# valor repetidos lat_1: -41.16502671 long_1: -31.86401752 elev_1: 0. (ultimo valor obtenido en filtrados)
+# -41.16502671 -31.86401752 0.(penultimo valor obtenido)
+def filter_on_elevations(latitudes,longitudes,elevations):
+  # print("Latitudes Originales:",latitudes)
+  # print("Longitudes Originales:", longitudes)
+  print("Elevaciones Originales:",len(elevations),type(elevations),type(latitudes[-1]), elevations)
+  
+  lat_filt = []
+  long_filt = []
+  elev_filt = []
+
+  for i in range(len(elevations)):
+    if elevations[i] >= 0:
+       lat_filt.append(latitudes[i])
+       long_filt.append(longitudes[i])
+       elev_filt.append(elevations[i])
+  lat_filt = np.array(lat_filt)
+  long_filt = np.array(long_filt)  
+  elev_filt = np.array(elev_filt)
+  
+  #Verificar Longitudes
+  if len(lat_filt) != len(long_filt) or len(long_filt) != len(elev_filt):
+    raise ValueError("Los arrays latitudes, longitudes y elevaciones deben tener la misma longitud")
+  # Verificar valores NaN o Inf
+  if np.any(np.isnan(lat_filt)) or np.any(np.isnan(long_filt)) or np.any(np.isnan(elev_filt)):
+    raise ValueError("Los arrays contienen valores NaN")
+  
+  if np.any(np.isinf(lat_filt)) or np.any(np.isinf(long_filt)) or np.any(np.isinf(elev_filt)):
+    raise ValueError("Los arrays contienen valores infinitos")
+  
+  # print("Latitudes filtradas:", len(lat_filt) ,type(lat_filt),"Tipo de un elemento:",type(lat_filt[1]),lat_filt)
+  # print("Longitudes filtradas:",len(long_filt), long_filt)
+  print("Elevaciones filtradas:",len(long_filt), elev_filt)
+
+  return lat_filt, long_filt, elev_filt
+
+def filter_unique_coordinates(latitudes,longitudes,elevations):
+  # coordinates = np.vstack((latitudes,longitudes,elevations)).T
+  # print("Coordenadas entrantes",coordinates)
+  # unique_coordinates = np.unique(coordinates, axis = 0)
+  # print("Coordenadas unicas",unique_coordinates)
+  # latitudes = unique_coordinates[:,0]
+  # longitudes = unique_coordinates[:,1]
+  # elevations = unique_coordinates[:,2]
+  data = {
+    'latitudes': latitudes,
+    'longitudes': longitudes,
+    'elevations': elevations 
+  }
+  
+  df = pd.DataFrame(data)
+  print(df)
+  df = df.drop_duplicates()
+  print(df)
+  # ######################
+  address = os.getcwd()
+  new = "dataset"
+  new_address = os.path.join(address, new)
+  df.to_csv(new_address+"/coordenadas.csv", index=False, header = True) #mode = "a"
+  # ######################
+  latitudes = df['latitudes'].to_numpy()
+  longitudes = df['longitudes'].to_numpy()
+  elevations = df['elevations'].to_numpy()
+  print("elevaciones post quita de duplicados",type(elevations),len(elevations),"maximo",max(elevations),elevations)
+  return latitudes, longitudes, elevations
 
 def convert_geo_coord_to_cartesian_coord(lat,long,elev):
   a = 6378137  # Radio ecuatorial de la Tierra en metros
