@@ -89,22 +89,12 @@ def coordinates_on_map( initial_latitude, initial_longitude,
 
 def interpolate3d(latitudes,longitudes,elevations):
   # print("Longitudes Recibidas: ",len(latitudes),len(longitudes),len(elevations))
-   #Verificar Longitudes
-  if len(latitudes) != len(longitudes) or len(longitudes) != len(elevations):
-    raise ValueError("Los arrays latitudes, longitudes y elevaciones deben tener la misma longitud")
-  # Verificar valores NaN o Inf
-  if np.any(np.isnan(latitudes)) or np.any(np.isnan(longitudes)) or np.any(np.isnan(elevations)):
-    raise ValueError("Los arrays contienen valores NaN")
-  
-  if np.any(np.isinf(latitudes)) or np.any(np.isinf(longitudes)) or np.any(np.isinf(elevations)):
-    raise ValueError("Los arrays contienen valores infinitos")
 
-  
-  tck, u = splprep([latitudes, longitudes, elevations], s=0,k=2)
+  tck, u = splprep([latitudes, longitudes, elevations], s=0,k=1)
   u_new = np.linspace(0, 1, 101)
   lat_interp, long_interp, elev_interp = splev(u_new, tck)
   
-  # ######################
+  # ###################### Guardo la interpolación en un csv para graficarlo luego
   data ={
     "latitudes": lat_interp,
     "longitudes": long_interp,
@@ -119,7 +109,7 @@ def interpolate3d(latitudes,longitudes,elevations):
   # ######################
   # print("Latitudes Interpoladas: ",lat_interp)
   # print("Longitudes Interpoladas: ",long_interp)
-  print("Elevaciones Interpoladas: ","maximo",max(elev_interp),elev_interp)
+  # print("Elevaciones Interpoladas: ","maximo",max(elev_interp),elev_interp)
   #print("Latitudes Interp:",lat_interp[:10])
   return lat_interp,long_interp,elev_interp
 
@@ -160,13 +150,6 @@ def filter_on_elevations(latitudes,longitudes,elevations):
   return lat_filt, long_filt, elev_filt
 
 def filter_unique_coordinates(latitudes,longitudes,elevations):
-  # coordinates = np.vstack((latitudes,longitudes,elevations)).T
-  # print("Coordenadas entrantes",coordinates)
-  # unique_coordinates = np.unique(coordinates, axis = 0)
-  # print("Coordenadas unicas",unique_coordinates)
-  # latitudes = unique_coordinates[:,0]
-  # longitudes = unique_coordinates[:,1]
-  # elevations = unique_coordinates[:,2]
   data = {
     'latitudes': latitudes,
     'longitudes': longitudes,

@@ -1,43 +1,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt 
-
-
-
-# # Eliminar una fila del .csv 
-# # Eliminamos la fila 2
-# df = pd.read_csv('dataset/dataset.csv')
-# #Mostramos su contenido
-# print(df,"\n")
-
-# index_to_delete = 2 #recordar que el indice comienza desde el 0, 1, 2, ...
-
-# df = df.drop(index_to_delete)
-
-# print("DataFrame:\n\n",df)
-# #Tener en cuenta que aquí el header viene del .csv
-# # Ahora procedemos a modificar el nuevo DataFrame
-# df.to_csv('dataset/dataset.csv', index = False, header = True)
-
-
-
-# # Guardar el DataFrame en un archivo CSV
-# output_directory = 'dataset'
-# output_file = f'{output_directory}/dataset.csv'
-
-# # Crear la carpeta 'dataset' si no existe
-# import os
-# if not os.path.exists(output_directory):
-#   os.makedirs(output_directory)
-
-# df.to_csv(output_file, index=False)
-
-#recorrer el dataframe de fechas y hacerles print las primeras 50
-# def read_csv_and_print():
-#   df = pd.read_csv("dataset/dates2010.csv")
-#   print(df.head())
-#   return 
-# a= read_csv_and_print()
+from  scipy.interpolate import interp1d
+from scipy.interpolate import splprep, splev
 def desfragmentar (data):
   return data["latitudes"], data["longitudes"],data["elevations"]
 
@@ -47,7 +12,7 @@ def transformar_radians(latitudes,longitudes,elevations):
   radio = elevations + 6.371E6
   return phi,theta,radio
 
-def graficar_curvas(phi_or,theta_or,radio_or, ax = None):
+def graficar_curvas(phi_or,theta_or,radio_or, ax = None, color = "blue", label = None):
   if ax is None:
     fig = plt.figure()
     ax = fig.add_subplot(projection='3d')  
@@ -63,7 +28,7 @@ def graficar_curvas(phi_or,theta_or,radio_or, ax = None):
   Z = radio_or * np.cos(theta_or)
 
 
-  ax.plot(X, Y, (Z - 6.371E6)/1E3, 'bo-', label="Trayectoria")
+  ax.plot(X, Y, (Z - 6.371E6)/1E3, 'o-', label = label, color = color)
   # Gráfica con puntos en lugar de superficie
   # ax.scatter(X, Y, (Z - 6.371E6)/1E3, c='b', marker='o')
 
@@ -73,7 +38,8 @@ def graficar_curvas(phi_or,theta_or,radio_or, ax = None):
 
   ax.set_zlabel("Altitud (km)")
   ax.set_xlabel("Latitud ($\\degree$)")
-  ax.set_ylabel("Longitud ($\\degree$)")
+  ax.set_ylabel("Longitud ($\\degree$)") 
+
   return ax
 
 # muestra
@@ -89,16 +55,46 @@ latitudes_interp,longitudes_interp,elevations_interp = desfragmentar(data_interp
 phi_or,theta_or,radio_or = transformar_radians(latitudes,longitudes,elevations)
 phi_int,theta_int,radio_int = transformar_radians(latitudes_interp,longitudes_interp,elevations_interp)
 
-# Graficamos
-fig = plt.figure()
-ax = fig.add_subplot(projection='3d')
+#Graficamos
+# fig = plt.figure()
+# ax = fig.add_subplot(projection='3d')
+# ax = graficar_curvas(phi_or,theta_or,radio_or, ax=ax, color = "blue", label = "Sin Interpolar")
+# ax = graficar_curvas(phi_int,theta_int,radio_int, ax=ax , color = "red", label = "Interpolada")
+# plt.show()
+##################################
+# Realizamos Muestra
+# print(data.head())
+# print(data_interp.head())
+##################################
+###Interpolacion en 1d usando iterp1d
+def interpolacion_interp1d(elev):
+  #tomamos las posiciones, serian los index
+  posiciones = np.arange(len(elev))
+  nuevas_posiciones = np.linspace(posiciones.min(),posiciones.max(),101)
+  # Interpolacion usando interp1d
+  interpolacion = interp1d(posiciones, elev, kind='cubic')
+  elevaciones_interpoladas = interpolacion(nuevas_posiciones)
+  
+  plt.plot(posiciones, elev, 'o', label='Datos Originales')
+  plt.plot(nuevas_posiciones, elevaciones_interpoladas, '.', label='Interpolación')
+  plt.xlabel('Posiciones')
+  plt.ylabel('Elevaciones')
+  plt.legend()
+  plt.show()
+  return 0
 
-# ax = graficar_curvas(phi_or,theta_or,radio_or, ax=ax)
-ax = graficar_curvas(phi_int,theta_int,radio_int, ax=ax )
-plt.show()
-# muestra
-print(data.head())
-print(data_interp.head())
-
-
-
+def interpolacion_splprep(elev):
+  posiciones = np.arange(len(elev))
+  tck,u = splprep([posiciones,elev], s=0,k=1)
+  u_new = np.linspace(0, 1, 101)
+  posiciones_int,elevaciones_int = splev(u_new,tck)
+  # print(elevaciones_interpoladas, type(elevaciones_interpoladas))
+  plt.plot(posiciones, elev, 'o', label='Datos Originales')
+  plt.plot(posiciones_int, elevaciones_int, '.', label='Interpolación')
+  plt.xlabel('Posiciones')
+  plt.ylabel('Elevaciones')
+  plt.legend()
+  plt.show()
+  return 0
+# interpolacion_interp1d(elevations)
+interpolacion_splprep(elevations)

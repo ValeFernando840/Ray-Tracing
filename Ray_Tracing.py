@@ -209,16 +209,6 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
         ax.set_xlabel("Latitud ($\\degree$)")
         ax.set_ylabel("Longitud ($\\degree$)")
 
-
-        #x,y,z = fn.convert_geo_coord_to_cartesian_coord(Lat,Lon,Alt)
-        # fig = plt.figure()
-        # ax = fig.add_subplot(111, projection='3d')
-        # ax.scatter(x, y, z, c='blue', marker='o')
-        # ax.set_xlabel('X')
-        # ax.set_ylabel('Y')
-        # ax.set_zlabel('Z')
-
-# plt.show()
     plt.show()
     os.chdir(dir)
     
