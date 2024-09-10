@@ -1,0 +1,15 @@
+PREGUNTAR
+## sobre Ray_tracing.py
+  Cuando se procede a Graficar la muestra sin interpolar, los valores obtenidos de la transformación de X_Y_Z en 
+sistema cartesiano, en Z si existen para sus valores iniciales y finales, valores Negativos.
+## sobre pruebas.py
+La obtención de la gráfica la considero correcta, éste conjunto pasa por un filtro que quita las tuplas que poseen
+elevación Negativa(functions.py -> filter_unique_coordinates() and filter_on_elevations()).
+Luego a la hora de graficar las coordenadas cartesianas interpoladas se obtiene una grafica Recta ya que el valor de Z cartesiano
+es Negativo descendente NO logro entender a que se puede deber éste tema.
+Es decir estoy usando la misma funcion para graficar el conjunto filtrado y luego el conjunto interpolado.
+##
+  A que se debe en el plot Gral. en Ray_tracing.py se realiza la doble conversión en np.radians(), si lo que tenemos en phi y 
+theta ya están en radianes (ALMENOS así lo entiendo yo).
+## Por otro lado cuando se realiza la interpolación sobre X Y Z (desde Ray_tracing.py)se obtienen valores bonitos de ver.
+pero éstos se encuentran en sistema cartesiano. El problema que considero 
