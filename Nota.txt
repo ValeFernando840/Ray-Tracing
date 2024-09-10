@@ -13,3 +13,23 @@ Es decir estoy usando la misma funcion para graficar el conjunto filtrado y lueg
 theta ya están en radianes (ALMENOS así lo entiendo yo).
 ## Por otro lado cuando se realiza la interpolación sobre X Y Z (desde Ray_tracing.py)se obtienen valores bonitos de ver.
 pero éstos se encuentran en sistema cartesiano. El problema que considero 
+
+
+
+
+#Lectura
+página: https://botpress.com/es/blog/deep-neural-network
+
+Redes Neuronales Profundas: 
+  Las redes de aprendizaje profundo utilizan "Big Data" junto con algoritmos para resolver un problema, y estas 
+  redes neuronales profundas pueden resolver problemas con una aportación humana limitada o nula.
+
+  La red neuronal se llama así porque existe una similitud entre este enfoque de programación y la forma en que funciona el cerebro.
+
+  Al igual que el cerebro, los algoritmos de redes neuronales utilizan una red de neuronas o nodos. Al igual que el cerebro, estas 
+  neuronas son funciones discretas (o maquinitas, si se prefiere) que reciben entradas y generan salidas. Estos nodos se organizan en 
+  capas, de forma que las salidas de las neuronas de una capa se convierten en las entradas de las neuronas de la capa siguiente hasta 
+  que las neuronas de la capa exterior de la red generan el resultado final.
+
+  Por lo tanto, hay capas de neuronas en las que cada una recibe entradas muy limitadas y genera salidas muy limitadas, como en el cerebro.
+  La primera capa de neuronas (o capa de entrada) recibe las entradas y la última capa de neuronas (o capa de salida) emite el resultado.

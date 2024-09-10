@@ -256,11 +256,11 @@ def main():
 
 
 												# 15
-	for date in df["Date"][2:365]:
+	for date in df["Date"][12:365]:
 		dia,mes,anio = date.split("-")
 		mmdd = mes + dia
 		Anio = float(anio)
-
+		print("Fecha",date)
 		for hora in horas:
 			# print("Fecha:",date,"Hora:",hora)
 			[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
@@ -271,7 +271,7 @@ def main():
 			fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
 			Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
 			fn.add_to_dataset(df)
-		print("=====Agregado Nueva Muestra=====","Fecha",date)
+		print("=====Agregado Nueva Muestra=====")
 
 
 
@@ -294,7 +294,6 @@ def main():
 	print(f"f carrier: {fc/1e6: 2.2f}")
 	
 	return 
-
 
 
 
