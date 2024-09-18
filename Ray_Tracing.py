@@ -247,7 +247,8 @@ def main():
 	AB = 10e3 # Hz
 	
 	##barrido
-	horas = np.arange(24)
+	horas = np.arange(0,24,4)
+	print(horas)
 	df = pd.read_csv("dataset/dates2010.csv")
 	#desde el elemento 1 al elemento 30 de Date
 	# [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
@@ -256,7 +257,7 @@ def main():
 
 
 												# 15
-	for date in df["Date"][12:365]:
+	for date in df["Date"][80:365]:
 		dia,mes,anio = date.split("-")
 		mmdd = mes + dia
 		Anio = float(anio)
