@@ -173,9 +173,9 @@ def csv_to_excel():
   address = os.getcwd()
   new = "dataset"
   new_address = os.path.join(address, new)
-  data = pd.read_csv(new_address+"/dataset.csv")
+  data = pd.read_csv(new_address+"/nuevo.csv")
   print(new_address)
-  data.to_excel(new_address+"/dataset_excel.xlsx",index=False)
+  data.to_excel(new_address+"/nuevo_excel.xlsx",index=False)
   return
 # csv_to_excel()
 

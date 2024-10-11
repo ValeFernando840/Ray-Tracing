@@ -249,7 +249,7 @@ def main():
 	##barrido
 	horas = np.arange(0,24,4)
 	print(horas)
-	df = pd.read_csv("dataset/dates2010.csv")
+	# df = pd.read_csv("dataset/dates2010.csv")
 	#desde el elemento 1 al elemento 30 de Date
 	# [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
 	#     Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
@@ -257,42 +257,59 @@ def main():
 
 
 												# 15
-	for date in df["Date"][80:365]:
-		dia,mes,anio = date.split("-")
-		mmdd = mes + dia
-		Anio = float(anio)
-		print("Fecha",date)
-		for hora in horas:
-			# print("Fecha:",date,"Hora:",hora)
-			[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
+	# for date in df["Date"][80:365]:
+	# 	dia,mes,anio = date.split("-")
+	# 	mmdd = mes + dia
+	# 	Anio = float(anio)
+	# 	print("Fecha",date)
+	# 	for hora in horas:
+	# 		# print("Fecha:",date,"Hora:",hora)
+	# 		[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
+	# 		Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+	# 		fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
+
+	# 		df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+	# 		fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
+	# 		Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
+	# 		fn.add_to_dataset(df)
+        
+	#Desde Aqui agregamos code para armar la segunda parte del Dataset
+	data = pd.read_csv("dataset/nuevo.csv")
+	print(type(data))
+  #Se cambio la fecha a una en especifico 15 de diciembre de 2010  a 12 hs
+	Fecha = "15-12-2010" # ddmmaa
+	dia,mes,anio = Fecha.split("-")
+	Anio = float(anio)
+	mmdd = mes + dia
+	hora = 12 
+	for index,row in data.iterrows():
+		print("Estamos en el index: ",index)
+		print("Muestra: Frequency Elevation Azimuth",row["Frequency"], row["Elevation"], row["Azimuth"])
+		fc = int(row["Frequency"])
+		elev = int(row["Elevation"])
+		azim = int(row["Azimuth"])
+		[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
 			Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
 			fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
-
-			df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+		
+		df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
 			fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
 			Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
-			fn.add_to_dataset(df)
-		print("=====Agregado Nueva Muestra=====")
-
-
-
-	
 		
+		fn.add_to_dataset(df)
+		# print("=====Agregado Nueva Muestra=====")
+
 
 	
 	# fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
 	
-	
-	"""
-	Que es el o para qué me podría servir -> Retardo, Rango_slant?
-	Para qué podriamos usar las Lat_, Long, Alt final ? 
-	"""
+
 			
-	print('===============================\n')
-	print(f"Rango_slant: {Rango_oblicuo/1e3: 2.2f}")
-	print(f"Retardo: {Retardo*1e3: 2.2f}")
-	print(f"Rango_ground: {Rango_Terrestre/1e3: 2.2f}")
-	print(f"f carrier: {fc/1e6: 2.2f}")
+	# print('===============================\n')
+	# print(f"Rango_slant: {Rango_oblicuo/1e3: 2.2f}")
+	# print(f"Retardo: {Retardo*1e3: 2.2f}")
+	# print(f"Rango_ground: {Rango_Terrestre/1e3: 2.2f}")
+	# print(f"f carrier: {fc/1e6: 2.2f}")
 	
 	return 
 
