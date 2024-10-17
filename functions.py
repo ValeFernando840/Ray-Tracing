@@ -13,7 +13,7 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
     latitudes = latitudes.flatten()
     longitudes = longitudes.flatten()
     elevations = elevations.flatten()
-
+    print("Originales:",elevations)
     lat_filt, long_filt, elev_filt = filter_on_elevations(latitudes,longitudes,elevations)
     latitudes ,longitudes,elevations = filter_unique_coordinates(lat_filt,long_filt,elev_filt)
     lat_interp, long_interp, elev_interp = interpolate3d(latitudes,longitudes,elevations)

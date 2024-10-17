@@ -239,11 +239,11 @@ def main():
 	# dia,mes,anio = Fecha.split("-")
 	# Anio = float(anio)
 	# mmdd = mes + dia
-	elev = 5               #initial_value = 5
-	azim = 98              #initial_value = 98
+	elev = 8               #initial_value = 5
+	azim = 90              #initial_value = 98
 	Tipo_zona = "Rural"    #'Comercial' 'Residencial' 'Rural' 'Rural Tranquila' NO SE USA NO INFLUYE EN EL TRAZADO DE RAYOS? 
 
-	fc = 10e6 # Hz   [3-30] initial_value = 10e6
+	fc = 6e6 # Hz   [3-30] initial_value = 10e6
 	AB = 10e3 # Hz
 	
 	##barrido
@@ -282,25 +282,31 @@ def main():
 	Anio = float(anio)
 	mmdd = mes + dia
 	hora = 12 
-	for index,row in data.iterrows():
-		print("Estamos en el index: ",index)
-		print("Muestra: Frequency Elevation Azimuth",row["Frequency"], row["Elevation"], row["Azimuth"])
-		fc = int(row["Frequency"])
-		elev = int(row["Elevation"])
-		azim = int(row["Azimuth"])
-		[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
-			Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-			fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
+	# for index,row in data.iterrows():
+	# 	print("Estamos en el index: ",index)
+	# 	print("Muestra: Frequency Elevation Azimuth",row["Frequency"], row["Elevation"], row["Azimuth"])
+	# 	fc = int(row["Frequency"])
+	# 	elev = int(row["Elevation"])
+	# 	azim = int(row["Azimuth"])
+	# 	[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
+	# 		Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+	# 		fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
 		
-		df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-			fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
-			Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
+	# 	df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+	# 		fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
+	# 		Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
 		
-		fn.add_to_dataset(df)
+		# fn.add_to_dataset(df)
 		# print("=====Agregado Nueva Muestra=====")
 
 
-	
+	[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
+			Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+			fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
+		
+	df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+			fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
+			Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
 	# fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
 	
 
