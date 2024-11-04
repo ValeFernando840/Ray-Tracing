@@ -125,3 +125,37 @@ Si entrenas el modelo durante 10 épocas con un batch_size de 100 en un conjunto
   * Un tamaño de lote grande hace que el entrenamiento sea más rápido, pero puede perderse detalles y hacer que el modelo tarde más en aprender.
 
 **Resumiendo**, ***epochs*** es cuántas veces el modelo verá el conjunto de datos completo durante el entrenamiento, y ***batch_size*** es cuántas muestras el modelo procesará antes de ajustar sus parámetros. Ambos parámetros son claves para determinar cómo de rápido y bien aprenderá la red neuronal.
+
+# Como guardar un modelo
+Para guardar un modelo en **TensorFlow**, se puede usar la función model.save() de Keras. TensorFlow permite guardar el modelo completo en un solo archivo o en un directorio, que incluye:
+1. La arquitectura del modelo.
+2. Los pesos del modelo.
+3. La configuración de entrenamiento (si se utilizo *compile*).
+4. El optimizador y su estado (para poder reanudar el entrenamiento si es necesario).
+
+### Procedimiento
+```python
+model.save('mi_modelo.h5')
+```
+Este comando guarda el modelo en un solo archivo HDF5(formato .h5),
+que es un método común para guardar modelos en TensorFlow. Si se 
+prefiere el formato carpeta(más común en versiones recientes de 
+TensorFlow), puedes hacer lo siguiente:
+```python
+model.save('mi_modelo')
+```
+Con esto creamos una carpeta *mi_modelo/* que contiene todo lo necesario 
+para la restauración del modelo.
+
+## Cargamos el modelo
+Para la carga del modelo guardado, usamos `tf.keras.load_model`:
+```python
+import tensorflow as tf
+
+# Si cargamos desde un Archivo .h5
+modelo_cargado = tf.keras.models.load_model('mi_modelo.h5')
+
+# si cargamos desde una Carpeta
+modelo_cargado = tf.keras.models.load_model('mi_modelo')
+```
+Luego de cargar el modelo, podemos realizar predicciones, evaluaciones o continuar con el entrenamiento si fuese necesario. 

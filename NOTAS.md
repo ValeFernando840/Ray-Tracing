@@ -3,9 +3,15 @@
 ```
   pip install -r requirements.txt
 ```
+## Para instalar una libreria en particular (example Numpy)
+Desde la terminal:
+```
+  pip install numpy
+```
+
 ## Para activar el entorno Virtual
 ```
-venv\Scripts\activate
+  venv\Scripts\activate
 ```
 ## Uso Latex, que tengo que instalar ?
 ### Para Windows
