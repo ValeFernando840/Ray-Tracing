@@ -159,3 +159,57 @@ modelo_cargado = tf.keras.models.load_model('mi_modelo.h5')
 modelo_cargado = tf.keras.models.load_model('mi_modelo')
 ```
 Luego de cargar el modelo, podemos realizar predicciones, evaluaciones o continuar con el entrenamiento si fuese necesario. 
+
+# kernel_regulizer
+El parámetro kernel_regularizer=l2 en una capa Dense en Keras (y 
+TensorFlow) permite aplicar una penalización de regularización L2 
+sobre los pesos de la capa. Esta técnica de regularización ayuda 
+a controlar el problema de sobreajuste reduciendo la magnitud de 
+los pesos del modelo, promoviendo un modelo más generalizable y 
+estable. Aquí te doy una explicación detallada:
+
+## ¿Qué es la regularización L2?
+La regularización L2 es una téctinica que penaliza los pesos 
+grandes en el modelo, agregando uan penalización proporcional a 
+la suma del cuadrado de cada peso. Esta penalización se añade a 
+la función de pérdida del modelo, empujando los pesos a valores 
+más pequeños y controlando su crecimiento.
+* Función de pérdida ajustada: En una red neuronal sin regularización, la función de pérdida($E$) mide la diferencia 
+entre las predicciones del modelo y las etiquetas reales. Con regularización L2, la función de pérdida se modifica para incluir la suma de los cuadrados de los pesos:
+$$
+L_{total} = L + \lambda \sum_i {w_i^2}
+$$
+donde:
+* $L_{total}$ es la pérdida total con regularización.
+* $L$ es la pérdida original (como el error cuadrático medio o la entropía cruzada).
+* $\lambda$ es el parámetro de regularización (`l2_reg` en Keras).
+* $w_i$ son los pesos de la capa.
+
+## ¿Cómo funciona kernel_regularizer=l2(l2_reg)?
+En el contexto de Keras, `kernel_regularizer=l2(l2_reg)` indica 
+que queremos aplicar una regularización L2 sobre los pesos de la 
+capa (Kernel se refiere a los pesos, mientras que `bias_regularizer` aplicaría regularización a los términos de sesgo, si fuese especificado).
+
+Al especificar `l2(l2_reg)`, Keras añadirá automaticamente la 
+penalización a la función de pérdida durante el entrenamiento, multiplicando el valor cuadrado de cada peso de la capa por el 
+factor `l2_reg`.
+
+Ejemplo: si tenemos `l2_reg= 0.001`, los pesos elevados al 
+cuadrado se multiplicarán por 0.001 y esta suma se añadirá a las 
+perdidas del modelo, penalizando más aquellos pesos que tengan valores más altos.
+
+
+## ¿Qué beneficios aporta la regularización L2?
+* **Evita el sobreajuste**: Al reducir el tamaño de los pesos, el 
+modelo depende menos de ajustes específicos para el conjunto de 
+entrenamiento y se enfoca en patrones más generales.
+* **Aumenta la estabilidad**: Los pesos pequeños contribuyen a una 
+predicción más estable y menos sensible a las variaciones en los 
+datos.
+* **Suaviza las predicciones**: En lugar de grandes cambios entre predicciones, la regularización L2 domenta la continuidad y una respuesta más suave del modelo a entradas similares.
+
+## ¿Cómo elegir el valor l2_reg?
+* Prueba y error: Podemos comenzar con un valor pequeño, como 0.001 y ajustar según el rendimiento del modelo.
+* Regularización Baja: Si tenemos modelos grandes o con muchos 
+datos, valores entre 0.0001 y 0.001 pueden ser correctos.
+* Regularización alta: Si el modelo está sobreajustado y se tiene pocos datos, podemos probar valores entre 0.01 y 0.1. Con estos valores podemos reducir el sobreajuste, pero si el valores es demasiado grande, el modelo puede no aprender patrones útiles.
