@@ -1,7 +1,7 @@
 ## Instalar dependencias desde `requirement.txt`
 
 ```
-  pip install -r requirements.txt
+  pip install -r Requirements.txt
 ```
 ## Para instalar una libreria en particular (example Numpy)
 Desde la terminal:
