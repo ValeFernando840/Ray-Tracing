@@ -116,3 +116,15 @@ Al aplicar estas técnicas, es importante considerar el contexto del problema, l
 En última instancia, al aprovecharlas ventajas de la normalización y la estandarización, los profesionales del Machine Learning y las Series de Tiempo pueden obtener resultados más sólidos y confiables, lo que a su vez facilita la toma de decisiones informadas en una amplia gama de aplicaciones y dominios.
 
 [REFERENCIA](https://www.linkedin.com/posts/naren-castellon-1541b8101_normalizaci%C3%B3n-y-estandarizaci%C3%B3n-en-modelos-activity-7154235226783641600-iV37/?originalSubdomain=es)
+
+
+## Validation_stlit
+El parámetro validation_split en el método .fit() de Keras controla qué porcentaje de tus datos de entrenamiento (x_train y y train) se reserva para 
+validar el modelo durante el entrenamiento. Esto significa que separa la pérdida y las métricas en un conjunto de validación después de cada época, sin usar lso datos de prueba explícitos.
+
+### Propósito del validation_split:
+* Evalúa el rendimineto del modelo en datos que no está usando directamente para ajustar los pesos(es decir, datos que el modelo no ha "visto").
+* Ayuda a monitorear problemas como el sobreajuste (cuando el modelo
+aprende demasiado bien los datos de entrenamiento pero generaliza 
+mal a nuevos datos).
+* Permite ajustar hiperpáramentros como la arquitectura, la tasa de aprendizaje, etc., sin necesidad de usar el conjunto de prueba.
