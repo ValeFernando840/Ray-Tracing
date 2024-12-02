@@ -44,8 +44,28 @@ def distances_by_geodesic(lat_true,lon_true,lat_pred,lon_pred):
 # tiene que estar en la misma unidad.
 # Tener en cuenta que true_heights es tipo Serie por lo que transformamos a array numpy.
 def distances_3D(distance2D, true_heights, pred_heights):
-  true_heights= true_heights.to_numpy() 
+  if isinstance(true_heights,pd.Series) or isinstance(true_heights,pd.DataFrame):
+    true_heights= true_heights.to_numpy() 
   dif_heights = true_heights - pred_heights
 
   distance_3d = np.sqrt(distance2D**2 + dif_heights**2)
   return distance_3d 
+def ecm_recm(distances):
+  ecm = np.sum(distances**2)/len(distances)
+  recm = np.sqrt(ecm)
+  return ecm,recm
+
+def save_errors(distancias_2d,error_2d,distancias_3d,error_3d,dir):
+  dist2D_columns = [f'dist2D_{i}' for i in range(1,101)]
+  dist3D_columns = [f'dist3D_{i}' for i in range(1,101)]
+  error_dist2D = ["ECM_2D","R-ECM_2D"]
+  error_dist3D = ["ECM_3D","R-ECM_3D"]
+
+  df_2d = pd.DataFrame(distancias_2d, columns = [dist2D_columns])
+  df_error_dist2D = pd.DataFrame(error_2d, columns = [error_dist2D])
+  df_3d = pd.DataFrame(distancias_3d, columns = [dist3D_columns])
+  df_error_dist3D = pd.DataFrame(error_3d, columns = [error_dist3D])
+
+  new_df = pd.concat([df_2d,df_error_dist2D,df_3d,df_error_dist3D],axis=1)
+
+  new_df.to_excel(f'Errores/{dir}.xlsx', index=False)
