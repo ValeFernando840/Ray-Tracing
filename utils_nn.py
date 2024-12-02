@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 from geopy.distance import geodesic
 #NOTA:
 #   Las variables lat_true_degrees,lon_true_degrees proviene de objetos pandas.Series por lo que se tiene
@@ -6,8 +7,10 @@ from geopy.distance import geodesic
 #   Por otro lado lat_pred_degrees,lon_pred_degrees provienen de objetos array Numpy. Por lo que 
 #   no se tiene que transformar.
 def haversine_distance(lat_true_degrees,lon_true_degrees,lat_pred_degrees,lon_pred_degrees): #Determinación de Rango Terrestre
-  lat_true_degrees = lat_true_degrees.to_numpy()
-  lon_true_degrees = lon_true_degrees.to_numpy()
+  if isinstance(lat_true_degrees, pd.Series):
+    lat_true_degrees = lat_true_degrees.to_numpy()
+  if isinstance(lon_true_degrees, pd.Series):
+    lon_true_degrees = lon_true_degrees.to_numpy()
 
   lat_true = np.radians(lat_true_degrees)
   lon_true = np.radians(lon_true_degrees)
@@ -21,8 +24,10 @@ def haversine_distance(lat_true_degrees,lon_true_degrees,lat_pred_degrees,lon_pr
 
 # Calculo de Distancias usando biblioteca Geodesic
 def distances_by_geodesic(lat_true,lon_true,lat_pred,lon_pred):
-  lat_true = lat_true.to_numpy()
-  lon_true = lon_true.to_numpy()
+  if isinstance(lat_true, pd.DataFrame):
+    lat_true = lat_true.to_numpy()
+  if isinstance(lon_true, pd.DataFrame):
+    lon_true = lon_true.to_numpy()
 
   errors = np.array([])
 
