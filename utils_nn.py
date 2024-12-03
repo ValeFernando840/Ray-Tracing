@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from geopy.distance import geodesic
+import os
 #NOTA:
 #   Las variables lat_true_degrees,lon_true_degrees proviene de objetos pandas.Series por lo que se tiene
 #   que convertir a un array Numpy.
@@ -55,7 +56,7 @@ def ecm_recm(distances):
   recm = np.sqrt(ecm)
   return ecm,recm
 
-def save_errors(distancias_2d,error_2d,distancias_3d,error_3d,dir):
+def generate_df(distancias_2d,error_2d,distancias_3d,error_3d):
   dist2D_columns = [f'dist2D_{i}' for i in range(1,101)]
   dist3D_columns = [f'dist3D_{i}' for i in range(1,101)]
   error_dist2D = ["ECM_2D","R-ECM_2D"]
@@ -67,5 +68,12 @@ def save_errors(distancias_2d,error_2d,distancias_3d,error_3d,dir):
   df_error_dist3D = pd.DataFrame(error_3d, columns = [error_dist3D])
 
   new_df = pd.concat([df_2d,df_error_dist2D,df_3d,df_error_dist3D],axis=1)
+  return new_df
 
-  new_df.to_excel(f'Errores/{dir}.xlsx', index=False)
+def save_file_error(new_df,dir,sheet_name):
+  if not os.path.exists(f'Errores/{dir}.xlsx'):
+    new_df.to_excel(f'Errores/{dir}.xlsx', index=False, sheet_name=sheet_name)
+  else:
+    with pd.ExcelWriter(f'Errores/{dir}.xlsx', mode='a',engine='openpyxl') as writer:
+      new_df.to_excel(writer, sheet_name=sheet_name, index = False)
+  
