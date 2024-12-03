@@ -8,6 +8,17 @@ import os
 #   Por otro lado lat_pred_degrees,lon_pred_degrees provienen de objetos array Numpy. Por lo que 
 #   no se tiene que transformar.
 def haversine_distance(lat_true_degrees,lon_true_degrees,lat_pred_degrees,lon_pred_degrees): #Determinación de Rango Terrestre
+  """ Calcula la distancia entre dos coordenadas en usando la funcion de Haversine
+
+  Args:
+      lat_true_degrees (_type_): _description_
+      lon_true_degrees (_type_): _description_
+      lat_pred_degrees (_type_): _description_
+      lon_pred_degrees (_type_): _description_
+
+  Returns:
+      _type_: _description_
+  """
   if isinstance(lat_true_degrees, pd.Series):
     lat_true_degrees = lat_true_degrees.to_numpy()
   if isinstance(lon_true_degrees, pd.Series):
