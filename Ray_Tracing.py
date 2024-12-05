@@ -5,7 +5,7 @@
 """
 En este se determina el camino de propagacion seguido por una O.E
 
-Para la deterinacion del camino se utiliza la tecnica del Ray Tracing.
+Para la determinacion del camino se utiliza la tecnica del Ray Tracing.
 Dos modelos son utilizados IRI y el Ray_Tracing (en Fortran)
 
 Se definen parametros como:
@@ -153,7 +153,7 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
 	pos[:,1]: indica todas las filas de la columna 1
 	
 	"""
-	#PENDIENTE ¿?¿?
+	
 	Retardo = pos[-1,0]/1e3
 	Rango_Oblicuo = pos[-1,1]*1e3
 	# print("Retardo:", Retardo,'\n',"Rango Oblicuo:",Rango_Oblicuo)
