@@ -89,7 +89,9 @@ def save_file_error(new_df,dir,sheet_name):
       new_df.to_excel(writer, sheet_name=sheet_name, index = False)
 
 def calculate_ECM_RECM(val1,val2):
-
+  """
+  
+  """
   if isinstance(val1,pd.Series):
     val1 = val1.to_numpy()
   if isinstance(val2,pd.Series):
