@@ -87,4 +87,13 @@ def save_file_error(new_df,dir,sheet_name):
   else:
     with pd.ExcelWriter(f'Errores/{dir}.xlsx', mode='a',engine='openpyxl') as writer:
       new_df.to_excel(writer, sheet_name=sheet_name, index = False)
-  
+
+def calculate_ECM_RECM(val1,val2):
+
+  if isinstance(val1,pd.Series):
+    val1 = val1.to_numpy()
+  if isinstance(val2,pd.Series):
+    val2= val2.to_numpy()
+  ecm = np.sum((val1-val2)**2)/len(val1)
+  recm = np.sqrt(ecm)
+  return ecm, recm
