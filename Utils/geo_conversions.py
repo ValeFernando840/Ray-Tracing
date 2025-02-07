@@ -1,6 +1,17 @@
 import numpy as np
 
 def transform_coords_cartesian(lat_ar,lon_ar,height_ar):
+  """ Transforma Coordenadas Geograficas a Coordenadas Cartesianas
+
+  Args:
+      lat_ar(_array_): _Latitudes de entrada tipo array float_
+      lon_ar(_array_): _Longitudes de entrada tipo array float_
+      height_arr (_array_): _Alturas de entrada tipo array float_
+
+
+  Returns:
+      x,y,z (_array_): _Retorna un conjunto de coordenadas x,y,z_
+  """  
   # phi = np.radians(90-lat_ar)
   phi = np.radians(lat_ar)
   theta = np.radians(lon_ar)
@@ -19,6 +30,17 @@ def transform_coords_cartesian(lat_ar,lon_ar,height_ar):
   return x,y,z
 
 def transform_cartesian_to_spherical(x,y,z):
+  """ Transforma Coordenadas Cartesianas a Esfericas
+
+  Args:
+      x(_array_): _x de entrada tipo array float_
+      y(_array_): _y de entrada tipo array float_
+      z (_array_): _z de entrada tipo array float_
+
+
+  Returns:
+      phi,theta,rho (_array_): _Retorna un conjunto de coordenadas phi,theta,rho_
+  """ 
   rho = np.sqrt(x**2+y**2+z**2)
   phi = np.arctan(y/x)
   theta = -np.arctan(np.sqrt(x**2+y**2)/z)
