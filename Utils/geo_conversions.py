@@ -45,3 +45,22 @@ def transform_cartesian_to_spherical(x,y,z):
   phi = np.arctan(y/x)
   theta = -np.arctan(np.sqrt(x**2+y**2)/z)
   return phi,theta,rho
+
+def transform_spherical_to_geographic(phi,theta,rho):
+  """
+  Transforma coordendas esféricas a coordenadas geográficas.
+  A la variable de entrada 'rho' se le resta 1 [unit] ya que anteriormente
+  en la Transformación a Cartesiana se toma un Radio de 1, con esto se tiene
+  exactamente las coordenadas Originales.
+
+  Args:
+    phi(_array_): __
+    theta(_array_): __
+    rho(_array_): __
+  Returns:
+    latitude,longitude,height: _Retorna el conjunto de coord geográficas
+  """
+  latitude =  np.degrees(phi)
+  longitude = np.degrees(theta)
+  height = rho - 1
+  return latitude,longitude,height

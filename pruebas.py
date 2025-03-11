@@ -17,7 +17,8 @@ def desfragmentar (data):
 def transformar_a_radians(latitudes,longitudes,elevations):
   phi =(np.pi/2) - np.radians(latitudes)
   theta = np.radians(longitudes)
-  radio = elevations + 6.371E6
+  radio = elevations*1E3 + 6.371E6 # m
+  # 6.
   return phi,theta,radio
 
 def graficar_curvas(phi_or,theta_or,radio_or, ax = None, color = "blue", label = None, marker ='o'):
@@ -40,7 +41,7 @@ def graficar_curvas(phi_or,theta_or,radio_or, ax = None, color = "blue", label =
   ax.scatter(X, Y, (Z - 6.371E6)/1E3, c=color, marker = marker, label = label)
 
   # Marca el punto de transmisión
-  ax.scatter(X[0], Y[0], (Z[0] - 6.371E6)/1e3, c=color, marker = marker, s=100, label="Tx")
+  ax.scatter(X[0], Y[0], (Z[0] - 6.371E6)/1E3, c=color, marker = marker, s=100, label="Tx")
   ax.legend()
 
   ax.set_zlabel("Altitud (km)")
@@ -50,24 +51,24 @@ def graficar_curvas(phi_or,theta_or,radio_or, ax = None, color = "blue", label =
   return ax
 
 # muestra
-data = pd.read_csv("dataset/coordenadas.csv")
-data_interp = pd.read_csv("dataset/coordenadas_interpoladas.csv")
+# data = pd.read_csv("dataset/coordenadas.csv")
+# data_interp = pd.read_csv("dataset/coordenadas_interpoladas.csv")
 
 
-# Obtenemos las columnas
-latitudes,longitudes,elevations = desfragmentar(data) #Se obtienen series
-latitudes_interp,longitudes_interp,elevations_interp = desfragmentar(data_interp)
+# # Obtenemos las columnas
+# latitudes,longitudes,elevations = desfragmentar(data) #Se obtienen series
+# latitudes_interp,longitudes_interp,elevations_interp = desfragmentar(data_interp)
 
-# Transformamos a radians
-phi_or,theta_or,radio_or = transformar_a_radians(latitudes,longitudes,elevations)
-phi_int,theta_int,radio_int = transformar_a_radians(latitudes_interp,longitudes_interp,elevations_interp)
+# # Transformamos a radians
+# phi_or,theta_or,radio_or = transformar_a_radians(latitudes,longitudes,elevations)
+# phi_int,theta_int,radio_int = transformar_a_radians(latitudes_interp,longitudes_interp,elevations_interp)
 
-#Graficamos
-fig = plt.figure()
-ax = fig.add_subplot(projection='3d')
-ax = graficar_curvas(phi_or,theta_or,radio_or, ax=ax, color = "blue", label = "Sin Interpolar",marker = "o")
-ax = graficar_curvas(phi_int,theta_int,radio_int, ax=ax , color = "red", label = "Interpolada", marker = "." )
-plt.show()
+# #Graficamos
+# fig = plt.figure()
+# ax = fig.add_subplot(projection='3d')
+# ax = graficar_curvas(phi_or,theta_or,radio_or, ax=ax, color = "blue", label = "Sin Interpolar",marker = "o")
+# ax = graficar_curvas(phi_int,theta_int,radio_int, ax=ax , color = "red", label = "Interpolada", marker = "." )
+# plt.show()
 
 ###Interpolacion en 1d usando iterp1d
 def interpolacion_interp1d(elev):
