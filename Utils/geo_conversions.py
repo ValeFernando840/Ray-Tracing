@@ -18,7 +18,7 @@ def transform_coords_cartesian(lat_ar,lon_ar,height_ar):
   x = np.array([])
   y = np. array([])
   z = np.array([])
-  radio = 1 #6.371E6
+  radio = 6.371E6 #1
   for phi_i,theta_i, height_i in zip(phi,theta,height_ar):
     h = (height_i + radio)
     x_i = h * np.cos(phi_i) * np.sin(theta_i)

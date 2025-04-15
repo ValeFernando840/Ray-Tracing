@@ -1,3 +1,6 @@
+# Este Archivo .py me permitio realizar el barrido en frec elevacion y azimuth angle para realizar las distintas consultas 
+# y guardarlas para entrenamiento futuro. 
+
 import numpy as np
 import pandas as pd
 
