@@ -74,4 +74,4 @@ encoded = Dense(90, activation=act_name, kernel_regularizer=l2(l2_reg))(encoded)
 decoded = Dense(100, activation='linear', kernel_regularizer=l2(l2_reg), name='y_output')(encoded)
 
 autoencoder_y = Model(inputs, decoded)
-
+````
