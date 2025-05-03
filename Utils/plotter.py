@@ -16,7 +16,7 @@ def plot_3D(x,y,z,ax=None, color='blue', label=None , marker='o'):
     ax = fig.add_subplot(projection='3d')
   
   ax.scatter(x,y,(z+6371E3),c = color, marker = marker, label=f'Gráfica de {label}')
-  ax.scatter(x[0],y[0],(z[0]+6.373E3),c = color,marker = marker,s=100,label='Tx')
+  ax.scatter(x[0],y[0],(z[0]),c = color,marker = marker,s=100,label='Tx')
   ax.legend()
 
   ax.set_zlabel('Altitud Z')
