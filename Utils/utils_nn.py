@@ -52,7 +52,7 @@ def distances_by_geodesic(lat_true,lon_true,lat_pred,lon_pred):
 
   Returns:
       errors (_array_): _Retorna un array con las distancias entre los distintos puntos considerando ésta distancia
-      como un error_
+      como un error. Estas distancias estan en Kilometros._
   """ 
   if isinstance(lat_true, pd.DataFrame):
     lat_true = lat_true.to_numpy()
@@ -95,10 +95,10 @@ def ecm_recm(distances):
   """ Calcula el Error Cuadratico Medio y la Raíz del Error Cuadrático Medio
 
   Args:
-      distances(_array_): _Recibe distancias_
+      distances(_array_): _Recibe arrays de distancias_
 
   Returns:
-      ecm, recm (_array_): _Retorna el Error Cuadratico Medio, y Raíz del Error Cuadratico Medio_
+      ecm, recm (_array_): _Retorna el Error Cuadrático Medio, y Raíz del Error Cuadrático Medio_
   """
   ecm = np.sum(distances**2)/len(distances)
   recm = np.sqrt(ecm)

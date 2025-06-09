@@ -2,8 +2,10 @@ ray_tracing.rar
 venv/
 Teoria/build/
 __pycache__/
-
-
+**/__pycache__/
+**/__pycache__/*
+*.kml
+*.pyc
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
