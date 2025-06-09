@@ -25,4 +25,4 @@ Desde la terminal:
 - LaTex Snippets
 - LaTex Workshop
 
-Éstas uso yo, si consideras otras mejor, _God! 
+Estas uso yo, si consideras otras mejor, _God! 
