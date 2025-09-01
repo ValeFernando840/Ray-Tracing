@@ -36,8 +36,8 @@ def leer_trayectoria(archivo):
   alt_km = alt / 1000.0
   return lat, lon, alt_km
 
-lat_pred, lon_pred, alt_pred = leer_trayectoria(f'./Trayectorias-text/modelo2_xyz_r0/trayectoria_pred_idx_{indice[valor]}.txt')
-lat_true, lon_true, alt_true = leer_trayectoria(f'./Trayectorias-text/modelo2_xyz_r0/trayectoria_true_idx_{indice[valor]}.txt')
+lat_pred, lon_pred, alt_pred = leer_trayectoria(f'./Trayectorias-text/modelo1_x_y_z_r0/trayectoria_pred_idx_{indice[valor]}.txt')
+lat_true, lon_true, alt_true = leer_trayectoria(f'./Trayectorias-text/modelo1_x_y_z_r0/trayectoria_true_idx_{indice[valor]}.txt')
 print(f'Alturas true: {alt_true - 6371}')
 print(f'Alturas pred: {alt_pred - 6371}')
 #	Conversión a coordenadas cartesianas
