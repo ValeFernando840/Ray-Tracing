@@ -59,7 +59,16 @@ def add_to_dataset(df):
 # proporcionados
 def coordinates_on_map( initial_latitude, initial_longitude, 
                       final_latitude, final_longitude):
-    
+    """
+    Genera un enlace de Google Maps para las coordenadas proporcionadas.
+    Args:
+        initial_latitude (float): Latitud inicial.
+        initial_longitude (float): Longitud inicial.
+        final_latitude (float): Latitud final.
+        final_longitude (float): Longitud final.
+    Returns:
+        None: Imprime la URL de Google Maps.
+    """
     final_latitude = final_latitude[0]
     final_longitude = final_longitude[0]
     url = f"https://www.google.com/maps/dir/?api=1&origin={initial_latitude},{initial_longitude}&destination={final_latitude},{final_longitude}&travelmode=driving"
@@ -69,6 +78,16 @@ def coordinates_on_map( initial_latitude, initial_longitude,
 # Esta Función recibirá un conjunto de Lat, Long, y elevs
 # y devuelve con conjunto de 100 muestras fijas.
 def interpolate3d(latitudes,longitudes,elevations):
+  """
+  Esta función interpola un conjunto de datos 3D (latitudes, longitudes y elevaciones)
+  utilizando splines lineales para generar un conjunto de datos con 100 muestras fijas.
+  Args:
+    latitudes (np.array): Array de latitudes.
+    longitudes (np.array): Array de longitudes.
+    elevations (np.array): Array de elevaciones.
+  Returns:
+    tuple: Tupla que contiene arrays de latitudes, longitudes y elevaciones interpoladas.
+  """
   posiciones = np.linspace(0, len(latitudes) - 1, len(latitudes))  # Crear una secuencia de índices para spline
   
   # Crear splines separados para latitudes, longitudes y elevaciones
@@ -84,22 +103,18 @@ def interpolate3d(latitudes,longitudes,elevations):
   longitudes_int = spline_lon(posiciones_nuevas)
   elevations_int = spline_elev(posiciones_nuevas)  
 
-  # data ={
-  #   "latitudes": latitudes_int,
-  #   "longitudes": longitudes_int,
-  #   "elevations": elevations_int
-  # }
-  # df = pd.DataFrame(data)
-  # address = os.getcwd()
-  # new = "dataset"
-  # new_address = os.path.join(address, new)
-  # print("Direccion",str(new_address))
-  # df.to_csv(new_address+"/coordenadas_interpoladas.csv", index=False, header = True) #mode = "a"  
   return latitudes_int,longitudes_int,elevations_int
 
-# Esta funcion filtra según las elevaciones, si una elevación es NEGATIVA, elimina la tupla
-# completa con el fin de no interpolar sobre esas tuplas negativas.
 def filter_on_elevations(latitudes,longitudes,elevations):
+  """ 
+  Esta función filtra las elevaciones negativas de un conjunto de datos.
+  Args:
+    latitudes (np.array): Array de latitudes.
+    longitudes (np.array): Array de longitudes.
+    elevations (np.array): Array de elevaciones. 
+  Returns:
+    tuple: Tupla que contiene arrays de latitudes, longitudes y elevaciones filtradas
+  """
   lat_filt = []
   long_filt = []
   elev_filt = []
@@ -124,51 +139,36 @@ def filter_on_elevations(latitudes,longitudes,elevations):
     raise ValueError("Los arrays contienen valores infinitos")
   
   return lat_filt, long_filt, elev_filt
-# Cuando recibimos la muestra observamos que tenemos muestras repetidas
-# Por lo que procedemos a eliminarlas.
+
 def filter_unique_coordinates(latitudes,longitudes,elevations):
+  """
+  Esta función filtra las coordenadas únicas de un conjunto de datos.
+  Args:
+    latitudes (np.array): Array de latitudes.
+    longitudes (np.array): Array de longitudes.
+    elevations (np.array): Array de elevaciones.
+  Returns:
+    tuple: Tupla que contiene arrays de latitudes, longitudes y elevaciones únicas.
+  """
   data = {
     'latitudes': latitudes,
     'longitudes': longitudes,
     'elevations': elevations 
   }
-  
   df = pd.DataFrame(data)
-  # address = os.getcwd()
-  # new = "dataset"
-  # new_address = os.path.join(address, new)
-  # df.to_csv(new_address+"/coordenadas.csv", index=False, header = True) #mode = "a"
 
-  print(df)
   df = df.drop_duplicates()
-  print(df)
-
   latitudes = df['latitudes'].to_numpy()
   longitudes = df['longitudes'].to_numpy()
-  elevations = df['elevations'].to_numpy()
-  
+  elevations = df['elevations'].to_numpy() 
   return latitudes, longitudes, elevations
 
-# Ésta funcion tengo que ver si continuará o debe ser eliminada...
-def convert_geo_coord_to_cartesian_coord(lat,long,elev):
-  a = 6378137  # Radio ecuatorial de la Tierra en metros
-  e = 0.08181919  # Excentricidad de la Tierra
-
-  lat_rad = np.radians(lat)
-  long_rad = np.radians(long)
-
-  # Cálculo del radio en la dirección del primer vertical (N)
-  N = a / np.sqrt(1 - e**2 * np.sin(lat_rad)**2)
-  
-  x = (N + elev) * np.cos(lat_rad) * np.cos(long_rad)
-  y = (N + elev) * np.cos(lat_rad) * np.sin(long_rad)
-  z = -( (1 - e**2) * N + elev ) * np.sin(lat_rad)
-
-  return x,y,z
-
-# Ésta función me permite pasar un .csv a .xlsx (formato Excel)
-# con el fin de poder visualizar en Excel que es mas ordenado y posee multiples funciones.
 def csv_to_excel():
+  """
+  Permite convertir un archivo CSV a formato Excel (.xlsx).
+  Verifica que el archivo CSV exista en la ruta especificada.
+  Verifica la dirección de salida.
+  """
   address = os.getcwd()
   new = "dataset"
   new_address = os.path.join(address, new)
@@ -176,12 +176,3 @@ def csv_to_excel():
   print(new_address)
   data.to_excel(new_address+"/nuevo_excel.xlsx",index=False)
   return
-# csv_to_excel()
-
-
-  # # ######################
-  # address = os.getcwd()
-  # new = "dataset"
-  # new_address = os.path.join(address, new)
-  # df.to_csv(new_address+"/coordenadas.csv", index=False, header = True) #mode = "a"
-  # # ######################
