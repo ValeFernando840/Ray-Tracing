@@ -1217,266 +1217,6 @@ Ne, foF1: probability function used.
 Ne, foF1: L condition cases included.
 Ne, D: IRI1990
  *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.6
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
       CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
 *** IRI parameters are being calculated ***
 Ne: No upper limit for F10.7 in topside formula.
@@ -1837,7 +1577,7 @@ Ne, foF1: probability function used.
 Ne, foF1: L condition cases included.
 Ne, D: IRI1990
  *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
 *** IRI parameters are being calculated ***
 Ne: No upper limit for F10.7 in topside formula.
 Ne: NeQuick for Topside
@@ -1847,7 +1587,317 @@ Ne, foF1: probability function used.
 Ne, foF1: L condition cases included.
 Ne, D: IRI1990
  *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.3 AND HEF=122.7
 *** IRI parameters are being calculated ***
 Ne: No upper limit for F10.7 in topside formula.
 Ne: NeQuick for Topside
@@ -2427,6 +2477,186 @@ Ne, foF1: probability function used.
 Ne, foF1: L condition cases included.
 Ne, D: IRI1990
  *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.4 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
       CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
 *** IRI parameters are being calculated ***
 Ne: No upper limit for F10.7 in topside formula.
@@ -2857,7 +3087,147 @@ Ne, foF1: probability function used.
 Ne, foF1: L condition cases included.
 Ne, D: IRI1990
  *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
+*** IRI parameters are being calculated ***
+Ne: No upper limit for F10.7 in topside formula.
+Ne: NeQuick for Topside
+Ne, foF2: URSI model is used.
+Ne: B0,B1-ABT-2009
+Ne, foF1: probability function used.
+Ne, foF1: L condition cases included.
+Ne, D: IRI1990
+ *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
+      CORR.: LIN. APP. BETWEEN HZ=133.5 AND HEF=122.7
 *** IRI parameters are being calculated ***
 Ne: No upper limit for F10.7 in topside formula.
 Ne: NeQuick for Topside
@@ -2888,3193 +3258,3 @@ Ne, foF1: L condition cases included.
 Ne, D: IRI1990
  *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
       CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.6 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.7 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.8 AND HEF=122.7
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=133.9 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.0 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.1 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.2 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.3 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.8
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.4 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.5 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.6 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.7 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9
-*** IRI parameters are being calculated ***
-Ne: No upper limit for F10.7 in topside formula.
-Ne: NeQuick for Topside
-Ne, foF2: URSI model is used.
-Ne: B0,B1-ABT-2009
-Ne, foF1: probability function used.
-Ne, foF1: L condition cases included.
-Ne, D: IRI1990
- *NE* HST IS NOT EVALUATED BY THE FUNCTION XE3
-      CORR.: LIN. APP. BETWEEN HZ=134.8 AND HEF=122.9

@@ -227,28 +227,25 @@ def Trazador_Rayos(Lat_Tx, Long_Tx, Altitud_Tx, frec, elev, azim, Anio, Fecha, U
 def main():
 	print(f'\n')
 	print(f'=============Inicio============')
+	#Parametros de Entrada
+	Tipo_zona = "Rural"    #'Comercial' 'Residencial' 'Rural' 'Rural Tranquila' NO USADO
 	Lat_Tx = -42.28 # Latitud Geografica [º decimales]
 	Lon_Tx = -63.4 # Longitud Geografica [º decimales]
 	Alt_Tx = 0 # m 
-	
-	Posicion_Tx = Posicion_Geo(Lat_Tx,Lon_Tx,Alt_Tx)       
-	
-	# Hora = 10 # Hora 24 hs
 	UTI = 0
+	Posicion_Tx = Posicion_Geo(Lat_Tx,Lon_Tx,Alt_Tx)
+
+	# Hora = 10 # Hora 24 hs
 	# Fecha = "15-06-2010" # ddmmaa
 	# dia,mes,anio = Fecha.split("-")
 	# Anio = float(anio)
 	# mmdd = mes + dia
-	elev = 8               #initial_value = 5
-	azim = 90              #initial_value = 98
-	Tipo_zona = "Rural"    #'Comercial' 'Residencial' 'Rural' 'Rural Tranquila' NO SE USA NO INFLUYE EN EL TRAZADO DE RAYOS? 
-
-	fc = 6e6 # Hz   [3-30] initial_value = 10e6
+	fc = 21E6 # Hz   [3-30] initial_value = 10e6
+	elev = 34              #initial_value = 5
+	azim = 91              #initial_value = 98
 	AB = 10e3 # Hz
-	
 	##barrido
 	horas = np.arange(0,24,4)
-	print(horas)
 	# df = pd.read_csv("dataset/dates2010.csv")
 	#desde el elemento 1 al elemento 30 de Date
 	# [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
@@ -275,13 +272,12 @@ def main():
         
 	#Desde Aqui agregamos code para armar la segunda parte del Dataset
 	data = pd.read_csv("dataset/nuevo.csv")
-	print(type(data))
   #Se cambio la fecha a una en especifico 15 de diciembre de 2010  a 12 hs
 	Fecha = "15-12-2010" # ddmmaa
 	dia,mes,anio = Fecha.split("-")
 	Anio = float(anio)
 	mmdd = mes + dia
-	hora = 12 
+	hora = 12
 	# for index,row in data.iterrows():
 	# 	print("Estamos en el index: ",index)
 	# 	print("Muestra: Frequency Elevation Azimuth",row["Frequency"], row["Elevation"], row["Azimuth"])
@@ -296,7 +292,7 @@ def main():
 	# 		fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
 	# 		Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
 		
-		# fn.add_to_dataset(df)
+	# fn.add_to_dataset(df)
 		# print("=====Agregado Nueva Muestra=====")
 
 
@@ -310,13 +306,8 @@ def main():
 	# fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
 	
 
-			
-	# print('===============================\n')
-	# print(f"Rango_slant: {Rango_oblicuo/1e3: 2.2f}")
-	# print(f"Retardo: {Retardo*1e3: 2.2f}")
-	# print(f"Rango_ground: {Rango_Terrestre/1e3: 2.2f}")
-	# print(f"f carrier: {fc/1e6: 2.2f}")
-	
+	# df.to_excel("prueba04-09.xlsx", index = False)
+	fn.add_to_excel(dir="prueba04-09.xlsx", line_df=df)
 	return 
 
 
