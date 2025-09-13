@@ -6,41 +6,44 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import CubicSpline
 from scipy.interpolate import make_interp_spline
 from scipy.interpolate import griddata
-
+from scipy.interpolate import PchipInterpolator
 
 df = pd.read_excel("prueba04-09.xlsx")
 
-idx = 3 # Index 0 a 3
+idx = 1 # Index 0 a 3
 strng_lat = df["latitudes"].iloc[idx] ; latitudes = np.fromstring(strng_lat.strip("[]"), sep=" ")
 strng_lon = df["longitudes"].iloc[idx] ; longitudes = np.fromstring(strng_lon.strip("[]"), sep=" ")
 strng_alt = df["alturas"].iloc[idx] ; altitudes = np.fromstring(strng_alt.strip("[]"), sep=" ")
 
-def transfor_to_cartesian(latitudes, longitudes, altitudes):
-		"""
-		Transforma coordenadas esféricas (latitud, longitud, altura) a coordenadas cartesianas (x, y, z).
-		Parámetros:
-		latitudes : array-like
-			Array de latitudes en grados.
-		longitudes : array-like
-			Array de longitudes en grados.
-		altitudes : array-like
-			Array de alturas en metros.	
-		Retorna:
-		x : array-like
-			Coordenada x en metros.
-		y : array-like
-			Coordenada y en metros.
-		z : array-like
-			Coordenada z en metros.
-		"""
-		R_earth = 6.371E6 # Radio de la Tierra en m
-		phi = np.radians(latitudes)
-		theta = np.radians(longitudes)
-		r = R_earth + altitudes
-		x = r * np.cos(phi) * np.sin(theta)
-		y = r * np.sin(phi) * np.sin(theta)
-		z = r * np.cos(phi)
-		return x, y, z
+def transform_to_cartesian(latitudes, longitudes, altitudes):
+	"""
+	Transforma coordenadas esféricas (latitud, longitud, altura) a coordenadas cartesianas (x, y, z).
+	Parámetros:
+	latitudes : array-like
+		Array de latitudes en grados.
+	longitudes : array-like
+		Array de longitudes en grados.
+	altitudes : array-like
+		Array de alturas en metros.	
+	Retorna:
+	x : array-like
+		Coordenada x en metros.
+	y : array-like
+		Coordenada y en metros.
+	z : array-like
+		Coordenada z en metros.
+	"""
+	# phi <-- latitud, theta <-- longitud
+	R_earth = 6.371E6 # Radio de la Tierra en m
+	phi = np.radians(latitudes)
+	theta = np.radians(longitudes)
+	# PHI,THETA = np.meshgrid(np.radians(phi), np.radians(theta))          
+	r = R_earth + altitudes
+	x = r * np.cos(phi) * np.sin(theta)
+	y = r * np.sin(phi) * np.sin(theta)
+	z = r * np.cos(theta) 
+	print("Shape x", x.shape)
+	return x, y, z
 def interpolate_with_spline(x,y,z):
 	"""
   Interpola puntos 3D utilizando splines."""
@@ -53,38 +56,53 @@ def interpolate_with_spline(x,y,z):
 	y_interp = spline_y(new_pos)
 	z_interp = spline_z(new_pos)
 	return x_interp, y_interp, z_interp
-def interpolate_with_griddata(x,y,z):
-  """
-  Interpola puntos 3D utilizando griddata."""
-  # Crear una cuadrícula regular en el espacio 3D
-  num_points = 200
-  xi = np.linspace(np.min(x), np.max(x), num_points)
-  yi = np.linspace(np.min(y), np.max(y), num_points)
-  zi = np.linspace(np.min(z), np.max(z), num_points)
-  XI, YI, ZI = np.meshgrid(xi, yi, zi)
-  # Interpolar los datos originales en la cuadrícula
-  points = np.vstack((x, y, z)).T
-  values = np.zeros(len(x))  # Valores ficticios para la interpolación
-  grid_z = griddata(points, values, (XI, YI, ZI), method='linear')
-  # Extraer los puntos interpolados no nulos
-  x_interp = XI[~np.isnan(grid_z)]
-  y_interp = YI[~np.isnan(grid_z)]
-  z_interp = ZI[~np.isnan(grid_z)]
-  return x_interp, y_interp, z_interp
-x,y,z = transfor_to_cartesian(latitudes, longitudes, altitudes)
-x_int, y_int, z_int = interpolate_with_spline(x,y,z)
 
-draw = False
+def interpolate_with_griddata(x,y,z):
+	num_points = 100
+	x_initial = x.ravel()[0]
+	x_end = x.ravel()[-1]
+	print(x_end)
+	y_initial = y.ravel()[0]
+	y_end = y.ravel()[-1]
+	x_new = np.linspace(x_initial, x_end, num_points)
+	y_new = np.linspace(y_initial, y_end, num_points)
+	x_new,y_new = np.meshgrid(x_new, y_new)
+	z_new = griddata((x.ravel(), y.ravel()), z.ravel(), (x_new, y_new), method='linear')
+  
+	return x_new, y_new, z_new
+def interpolate_with_Pchip(x,y,z):
+	dx = np.diff(x)
+	dy = np.diff(y)
+	dz = np.diff(z)
+
+	dist = np.sqrt(dx**2 + dy**2 + dz**2)
+	cumulative_dist = np.concatenate(([0], np.cumsum(dist)))
+	t_coarse = cumulative_dist
+	t_fine = np.linspace(0, cumulative_dist[-1],200)
+
+	interp_x = PchipInterpolator(t_coarse, x)
+	interp_y = PchipInterpolator(t_coarse, y)
+	interp_z = PchipInterpolator(t_coarse, z)
+	x_pchip = interp_x(t_fine)
+	y_pchip = interp_y(t_fine)
+	z_pchip = interp_z(t_fine)
+	print(f"Original x range: [{x.min():.2f}, {x.max():.2f}]")
+	print(f"Interpolated x range: [{x_pchip.min():.2f}, {x_pchip.max():.2f}]")
+	# print(f"Within bounds{x_pchip.min >= x.min() and x_pchip.max() <= x.max()}")
+
+	return x_pchip, y_pchip, z_pchip
+x,y,z = transform_to_cartesian(latitudes, longitudes, altitudes)
+# x_int, y_int, z_int = interpolate_with_griddata(x,y,z)
+x_int, y_int, z_int = interpolate_with_Pchip(x,y,z)
+draw = True
 if draw == True:
   fig = plt.figure()
   ax = fig.add_subplot(111, projection = '3d')
-  ax.plot(x,y,z,'o', label = 'Datos Originales')
-  ax.plot(x_int, y_int, z_int, '.', label = 'Interpolación Lineal')
+  # ax.scatter(x.flatten(),y.flatten(),(z.flatten()-6.371E6)/1e3, c='r', label = 'Datos Originales')
+  ax.plot(x,y,(z-6.371e6)/1e3,'o', label = 'Datos Originales')
+  ax.plot(x_int, y_int, (z_int-6.371e6)/1e3, '.', label = 'Interpolación Lineal')
   ax.set_xlabel("X")
   ax.set_ylabel("Y")
   ax.set_zlabel("Z")
   ax.legend()
   plt.show()
-	
-  
-print(len(latitudes))
