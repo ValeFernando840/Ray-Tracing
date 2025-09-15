@@ -1,4 +1,5 @@
 import numpy as np
+from simplekml import Kml
 
 def transform_coords_cartesian(lat_ar,lon_ar,height_ar):
   """ Transforma Coordenadas Geograficas a Coordenadas Cartesianas
@@ -30,7 +31,7 @@ def transform_coords_cartesian(lat_ar,lon_ar,height_ar):
   return x,y,z
 
 def transform_cartesian_to_spherical(x,y,z):
-  """ Transforma Coordenadas Cartesianas a Esfericas
+  """ Transforma Coordenadas Cartesianas a Coordenadas Esfericas
 
   Args:
       x(_array_): _x de entrada tipo array float_
@@ -64,3 +65,35 @@ def transform_spherical_to_geographic(phi,theta,rho):
   longitude = np.degrees(theta)
   height = rho  ## -1 Anteriormente. 
   return latitude,longitude,height
+
+def generate_KML(lat_true, lon_true, alt_true,
+                 lat_pred,lon_pred,alt_pred, dir,filename):
+  """
+  Genera un archivo KML para visualizar trayectorias en Google Earth.
+  Args:
+    lat_true (_array_): _Latitudes de la trayectoria verdadera._
+    lon_true (_array_): _Longitudes de la trayectoria verdadera._
+    alt_true (_array_): _Alturas de la trayectoria verdadera._
+    lat_pred (_array_): _Latitudes de la trayectoria predicha._
+    lon_pred (_array_): _Longitudes de la trayectoria predicha._
+    alt_pred (_array_): _Alturas de la trayectoria predicha._
+    dir (str): _Directorio donde se guardará el archivo KML._
+    filename (str): _Nombre del archivo KML (sin extensión)._
+  """
+  R0 = 6.371E6 # Radio de la Tierra en m
+  kml = Kml()
+  linestring_true = kml.newlinestring(name = "True")
+  linestring_true.coords = list(zip(lon_true, lat_true, alt_true-R0))
+  linestring_true.altitudemode = 'absolute'
+  linestring_true.extrude = 0
+  linestring_true.style.linestyle.width = 5
+  linestring_true.style.linestyle.color = 'ff0000ff'
+
+  linestring_pred = kml.newlinestring(name = "Predicted")
+  linestring_pred.coords = list(zip(lon_pred, lat_pred, alt_pred - R0))
+  linestring_pred.altitudemode = 'absolute'
+  linestring_pred.extrude = 0
+  linestring_pred.style.linestyle.width = 5
+  linestring_pred.style.linestyle.color = 'ff00ff00'
+
+  kml.save(f"{dir}/{filename}.kml")
