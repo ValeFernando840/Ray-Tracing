@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from openpyxl import load_workbook
 from scipy.interpolate import make_interp_spline
+from scipy.interpolate import PchipInterpolator
+from Utils import geo_conversions as gc
 
 def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_position_tx,
   fc,elev,azim,anio,mmdd,UTI,hora,retardo,rango_terrestre,rango_slant,
@@ -37,7 +39,9 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
   elevations = elevations.flatten()
   lat_filt, long_filt, elev_filt = filter_on_elevations(latitudes,longitudes,elevations)
   latitudes ,longitudes,elevations = filter_unique_coordinates(lat_filt,long_filt,elev_filt)
-  lat_interp, long_interp, elev_interp = interpolate3d(latitudes,longitudes,elevations)
+  x,y,z = gc.transform_coords_cartesian(latitudes, longitudes, elevations)
+  x_int, y_int, z_int = interpolate_with_Pchip(x,y,z)
+  phi_int, theta_int, rho_int = gc.transform_cartesian_to_spherical(x_int,y_int,z_int)
 
     # Create a Data Frame
   data = {
@@ -224,3 +228,32 @@ def csv_to_excel():
   print(new_address)
   data.to_excel(new_address+"/nuevo_excel.xlsx",index=False)
   return
+
+def interpolate_with_Pchip(x,y,z):
+	"""
+	Interpola puntos 3D utilizando PCHIP (Piecewise Cubic Hermite Interpolating Polynomial).
+	Args:
+		x (_array_): _Array de coordenadas x._
+		y (_array_): _Array de coordenadas y._
+		z (_array_): _Array de coordenadas z._
+	Returns:
+		x_pchip (_array_): _Array de coordenadas x interpoladas._	
+		y_pchip (_array_): _Array de coordenadas y interpoladas._
+		z_pchip (_array_): _Array de coordenadas z interpoladas._
+	"""
+	dx = np.diff(x)
+	dy = np.diff(y)
+	dz = np.diff(z)
+
+	dist = np.sqrt(dx**2 + dy**2 + dz**2)
+	cumulative_dist = np.concatenate(([0], np.cumsum(dist)))
+	t_coarse = cumulative_dist
+	t_fine = np.linspace(0, cumulative_dist[-1],200)
+
+	interp_x = PchipInterpolator(t_coarse, x)
+	interp_y = PchipInterpolator(t_coarse, y)
+	interp_z = PchipInterpolator(t_coarse, z)
+	x_pchip = interp_x(t_fine)
+	y_pchip = interp_y(t_fine)
+	z_pchip = interp_z(t_fine)
+	return x_pchip, y_pchip, z_pchip

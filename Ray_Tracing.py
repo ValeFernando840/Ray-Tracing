@@ -27,7 +27,7 @@ import Confi_Trazador
 from matplotlib import cm
 
 ############################
-import functions as fn
+import Utils.functions as fn
 import pandas as pd 
 from scipy.interpolate import griddata
 ############################
@@ -303,8 +303,6 @@ def main():
 	df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
 			fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
 			Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
-	# fn.coordinates_on_map(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Lat_Final,Lon_Final)
-	
 
 	# df.to_excel("prueba04-09.xlsx", index = False)
 	fn.add_to_excel(dir="prueba04-09.xlsx", line_df=df)

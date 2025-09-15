@@ -7,9 +7,10 @@ from scipy.interpolate import CubicSpline
 from scipy.interpolate import make_interp_spline
 from scipy.interpolate import griddata
 from scipy.interpolate import PchipInterpolator
+from Utils import geo_conversions as gc
 
 df = pd.read_excel("prueba04-09.xlsx")
-
+R0 = 6.371E6 # Radio de la Tierra en m
 idx = 1 # Index 0 a 3
 strng_lat = df["latitudes"].iloc[idx] ; latitudes = np.fromstring(strng_lat.strip("[]"), sep=" ")
 strng_lon = df["longitudes"].iloc[idx] ; longitudes = np.fromstring(strng_lon.strip("[]"), sep=" ")
@@ -71,6 +72,17 @@ def interpolate_with_griddata(x,y,z):
   
 	return x_new, y_new, z_new
 def interpolate_with_Pchip(x,y,z):
+	"""
+	Interpola puntos 3D utilizando PCHIP (Piecewise Cubic Hermite Interpolating Polynomial).
+	Args:
+		x (_array_): _Array de coordenadas x._
+		y (_array_): _Array de coordenadas y._
+		z (_array_): _Array de coordenadas z._
+	Returns:
+		x_pchip (_array_): _Array de coordenadas x interpoladas._	
+		y_pchip (_array_): _Array de coordenadas y interpoladas._
+		z_pchip (_array_): _Array de coordenadas z interpoladas._
+	"""
 	dx = np.diff(x)
 	dy = np.diff(y)
 	dz = np.diff(z)
@@ -88,20 +100,22 @@ def interpolate_with_Pchip(x,y,z):
 	z_pchip = interp_z(t_fine)
 	print(f"Original x range: [{x.min():.2f}, {x.max():.2f}]")
 	print(f"Interpolated x range: [{x_pchip.min():.2f}, {x_pchip.max():.2f}]")
-	# print(f"Within bounds{x_pchip.min >= x.min() and x_pchip.max() <= x.max()}")
-
 	return x_pchip, y_pchip, z_pchip
+
 x,y,z = transform_to_cartesian(latitudes, longitudes, altitudes)
-# x_int, y_int, z_int = interpolate_with_griddata(x,y,z)
 x_int, y_int, z_int = interpolate_with_Pchip(x,y,z)
-draw = True
+phi_int, theta_int, rho_int = gc.transform_cartesian_to_spherical(x_int,y_int,z_int)
+lat_int, lon_int, alt_int = gc.transform_spherical_to_geographic(phi_int, theta_int, rho_int)
+gc.generate_KML(latitudes, longitudes, altitudes+R0,
+								 lat_int, lon_int, alt_int,
+								 "./", "Resultados1")
+draw = False
 if draw == True:
   fig = plt.figure()
   ax = fig.add_subplot(111, projection = '3d')
-  # ax.scatter(x.flatten(),y.flatten(),(z.flatten()-6.371E6)/1e3, c='r', label = 'Datos Originales')
   ax.plot(x,y,(z-6.371e6)/1e3,'o', label = 'Datos Originales')
   ax.plot(x_int, y_int, (z_int-6.371e6)/1e3, '.', label = 'Interpolación Lineal')
-  ax.set_xlabel("X")
+  ax.set_xlabel("X")	
   ax.set_ylabel("Y")
   ax.set_zlabel("Z")
   ax.legend()
