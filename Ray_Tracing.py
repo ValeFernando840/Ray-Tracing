@@ -17,19 +17,13 @@ Se definen parametros como:
 
 import os
 import sys
-
 import numpy as np
-import matplotlib.pyplot as plt
-import scipy 
-
-import math ##???
+import matplotlib.pyplot as plt 
+import math
 import Confi_Trazador
-from matplotlib import cm
-
-############################
-import Utils.functions as fn
 import pandas as pd 
 from scipy.interpolate import griddata
+import Utils.functions as fn
 ############################
 class Posicion_Geo():
     def __init__(Pos,Latitud,Longitud,Altitud):
@@ -292,7 +286,7 @@ def main():
 	# 		fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
 	# 		Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
 		
-	# fn.add_to_dataset(df)
+	fn.add_to_dataset(df)
 		# print("=====Agregado Nueva Muestra=====")
 
 

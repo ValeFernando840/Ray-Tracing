@@ -42,7 +42,7 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
   x,y,z = gc.transform_coords_cartesian(latitudes, longitudes, elevations)
   x_int, y_int, z_int = interpolate_with_Pchip(x,y,z)
   phi_int, theta_int, rho_int = gc.transform_cartesian_to_spherical(x_int,y_int,z_int)
-
+  lat_int, lon_int, alt_int = gc.transform_spherical_to_geographic(phi_int,theta_int,rho_int)
     # Create a Data Frame
   data = {
       "latitude_pos_tx": latitude_position_tx,
@@ -61,17 +61,17 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
       "final_latitude": lat_final,
       "final_longitude": lon_final,
       "final_elevation": alt_final,
-      "latitudes": [latitudes],
-      "longitudes": [longitudes],
-      "alturas": [elevations]
+      # "latitudes": [latitudes],
+      # "longitudes": [longitudes],
+      # "alturas": [elevations]
     }
     #expand arrays in columns sepatare
-  # for i in range(len(latitudes)):
-  #   data[f'lat_{i+1}'] = latitudes[i]
-  # for i in range(len(longitudes)):
-  #   data[f'long_{i+1}'] = longitudes[i]
-  # for i in range(len(elevations)):
-  #   data[f'elev_{i+1}'] = elevations[i]
+  for i in range(len(lat_int)):
+    data[f'lat_{i+1}'] = lat_int[i]
+  for i in range(len(lon_int)):
+    data[f'lon_{i+1}'] = lon_int[i]
+  for i in range(len(alt_int)):
+    data[f'alt_{i+1}'] = alt_int[i]
 
   df = pd.DataFrame(data)
   return df
@@ -127,8 +127,7 @@ def coordinates_on_map( initial_latitude, initial_longitude,
     print("Open the following URL in your browser:\n", url)
     return
 
-# Esta Función recibirá un conjunto de Lat, Long, y elevs
-# y devuelve con conjunto de 100 muestras fijas.
+
 def interpolate3d(latitudes,longitudes,elevations):
   """
   Esta función interpola un conjunto de datos 3D (latitudes, longitudes y elevaciones)
