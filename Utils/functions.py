@@ -61,9 +61,6 @@ def generate_dataframe( latitude_position_tx, longitude_position_tx,elevation_po
       "final_latitude": lat_final,
       "final_longitude": lon_final,
       "final_elevation": alt_final,
-      # "latitudes": [latitudes],
-      # "longitudes": [longitudes],
-      # "alturas": [elevations]
     }
     #expand arrays in columns sepatare
   for i in range(len(lat_int)):
@@ -92,20 +89,20 @@ def add_to_excel(dir, line_df):
   Returns:
       None
   """
-  if not os.path.exists(dir):
-      raise FileNotFoundError(f"El archivo {dir} no existe.")
-  
   if line_df.empty:
-      raise ValueError("El DataFrame proporcionado está vacío.")
+    raise ValueError("El DataFrame proporcionado está vacío.")
+  if not os.path.exists(dir):
+     with pd.ExcelWriter(dir,engine="openpyxl") as writer:
+         line_df.to_excel(writer, index=False)
+  else:    
+    # Cargar el libro para saber en qué fila termina
+    book = load_workbook(dir)
+    hoja = book.active
+    last_row = hoja.max_row
 
-  # Cargar el libro para saber en qué fila termina
-  book = load_workbook(dir)
-  hoja = book.active
-  last_row = hoja.max_row
-
-  # Escribir en modo append
-  with pd.ExcelWriter(dir, mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
-      line_df.to_excel(writer, index=False, header=False, startrow=last_row)
+    # Escribir en modo append
+    with pd.ExcelWriter(dir, mode="a", engine="openpyxl", if_sheet_exists="overlay") as writer:
+        line_df.to_excel(writer, index=False, header=False, startrow=last_row)
   return
 # La función genera un link con las ubicaciones en el mapa de los 2 puntos
 # proporcionados

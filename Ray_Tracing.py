@@ -228,81 +228,22 @@ def main():
 	Alt_Tx = 0 # m 
 	UTI = 0
 	Posicion_Tx = Posicion_Geo(Lat_Tx,Lon_Tx,Alt_Tx)
-
-	# Hora = 10 # Hora 24 hs
-	# Fecha = "15-06-2010" # ddmmaa
-	# dia,mes,anio = Fecha.split("-")
-	# Anio = float(anio)
-	# mmdd = mes + dia
-	fc = 21E6 # Hz   [3-30] initial_value = 10e6
-	elev = 34              #initial_value = 5
-	azim = 91              #initial_value = 98
-	AB = 10e3 # Hz
-	##barrido
-	horas = np.arange(0,24,4)
-	# df = pd.read_csv("dataset/dates2010.csv")
-	#desde el elemento 1 al elemento 30 de Date
-	# [Retardo, Rango_Terrestre, Rango_slant, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
-	#     Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-	#     fc, elev, azim, Anio, mmdd, UTI, Hora,plot = False)
-
-
-												# 15
-	# for date in df["Date"][80:365]:
-	# 	dia,mes,anio = date.split("-")
-	# 	mmdd = mes + dia
-	# 	Anio = float(anio)
-	# 	print("Fecha",date)
-	# 	for hora in horas:
-	# 		# print("Fecha:",date,"Hora:",hora)
-	# 		[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
-	# 		Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-	# 		fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
-
-	# 		df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-	# 		fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
-	# 		Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
-	# 		fn.add_to_dataset(df)
-        
-	#Desde Aqui agregamos code para armar la segunda parte del Dataset
-	data = pd.read_csv("dataset/nuevo.csv")
-  #Se cambio la fecha a una en especifico 15 de diciembre de 2010  a 12 hs
-	Fecha = "15-12-2010" # ddmmaa
-	dia,mes,anio = Fecha.split("-")
-	Anio = float(anio)
-	mmdd = mes + dia
-	hora = 12
-	# for index,row in data.iterrows():
-	# 	print("Estamos en el index: ",index)
-	# 	print("Muestra: Frequency Elevation Azimuth",row["Frequency"], row["Elevation"], row["Azimuth"])
-	# 	fc = int(row["Frequency"])
-	# 	elev = int(row["Elevation"])
-	# 	azim = int(row["Azimuth"])
-	# 	[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
-	# 		Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-	# 		fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
+	Anio = 2010.0
+	df_solicitudes = pd.read_excel('./Solicitudes.xlsx')
+	# float Trazo_Rayos(float fc,float Lat_Tx, float Lon_Tx,string Fecha,float Rz)
+	for idx,row in df_solicitudes.iterrows():
+		print(f"Fila {idx}: fc={row['fc']}, elevation={row['elevation']}, azimuth={row['azimuth']}, mmdd={row['mmdd']}, hora={row['hora']}")
+		fc = float(row["fc"])								# Por lo que se lee el formato de fc debe ser float
+		mmdd = row["mmdd"].replace("-","")	# el formato que debe ingresar como mmdd debe ser sin guion
+		[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,alturas] = Trazador_Rayos(
+				Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+				fc, row['elevation'], row['azimuth'], Anio,mmdd, UTI, row['hora'],plot = False)
 		
-	# 	df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-	# 		fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
-	# 		Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
+		df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+				fc, row['elevation'], row['azimuth'], Anio, row['mmdd'], UTI, row['hora'],Retardo, Rango_Terrestre, Rango_oblicuo,
+				Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,alturas)
 		
-	fn.add_to_dataset(df)
-		# print("=====Agregado Nueva Muestra=====")
-
-
-	[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations] = Trazador_Rayos(
-			Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-			fc, elev, azim, Anio, mmdd, UTI, hora,plot = False)
-		
-	df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-			fc, elev, azim, Anio, mmdd, UTI, hora,Retardo, Rango_Terrestre, Rango_oblicuo, 
-			Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,elevations)
-
-	# df.to_excel("prueba04-09.xlsx", index = False)
-	fn.add_to_excel(dir="prueba04-09.xlsx", line_df=df)
-	return 
-
-
+		fn.add_to_excel(dir="./new_dataset.xlsx", line_df=df)
 
 # INICIO    
 if __name__ == '__main__':
