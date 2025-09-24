@@ -66,7 +66,7 @@ def transform_spherical_to_geographic(phi,theta,rho):
   height = rho  ## -1 Anteriormente. 
   return latitude,longitude,height
 
-def generate_KML(lat_true, lon_true, alt_true,
+def generate_KML_true_pred(lat_true, lon_true, alt_true,
                  lat_pred,lon_pred,alt_pred, dir,filename):
   """
   Genera un archivo KML para visualizar trayectorias en Google Earth.
@@ -97,3 +97,34 @@ def generate_KML(lat_true, lon_true, alt_true,
   linestring_pred.style.linestyle.color = 'ff00ff00'
 
   kml.save(f"{dir}/{filename}.kml")
+  return 0
+
+def generate_KML(lat, lon, alt, dir,filename, color = 'ff0000ff'):
+  """
+  Genera un archivo KML para visualizar trayectoria en Google Earth.
+  Args:
+    lat (_array_): _Latitudes de la trayectoria ._
+    lon (_array_): _Longitudes de la trayectoria ._
+    alt (_array_): _Alturas de la trayectoria._
+    dir (str): _Directorio donde se guardará el archivo KML._
+    filename (str): _Nombre del archivo KML (sin extensión)._
+  Note:
+  La altura recibida debe ser absoluta es decir sin considerar R0.
+  """
+  kml = Kml()
+  linestring = kml.newlinestring(name = "muestra")
+  linestring.coords = list(zip(lon, lat, alt))
+  linestring.altitudemode = 'absolute'
+  linestring.extrude = 0
+  linestring.style.linestyle.width = 5
+  linestring.style.linestyle.color = color
+
+  kml.save(f"{dir}/{filename}.kml")
+  return 0
+"""
+NOTA: En KML la biblioteca que usamos (simplekml) se definen en formato AABBGGRR en Hexadecimal
+  -AA: Canal ALPHA Transparencia (00= transparente, ff=opaco).
+  -BB: Canal Blue.
+  -GG: Canal Green.
+  -RR: Canal Red
+"""
