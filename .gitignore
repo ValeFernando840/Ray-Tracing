@@ -1,3 +1,6 @@
+# Archivos y carpetas generados debido a cada corrida. No es necesario subirlos al repositorio.
+ray_tracing/dist/Release/Cygwin_1-Windows/*.txt
+
 IMAGENES
 pruebas.py
 ray_tracing.rar
