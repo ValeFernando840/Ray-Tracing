@@ -232,18 +232,19 @@ def main():
 	df_solicitudes = pd.read_excel('./Solicitudes.xlsx')
 	# float Trazo_Rayos(float fc,float Lat_Tx, float Lon_Tx,string Fecha,float Rz)
 	for idx,row in df_solicitudes.iterrows():
-		print(f"Fila {idx}: fc={row['fc']}, elevation={row['elevation']}, azimuth={row['azimuth']}, mmdd={row['mmdd']}, hora={row['hora']}")
-		fc = float(row["fc"])								# Por lo que se lee el formato de fc debe ser float
-		mmdd = row["mmdd"].replace("-","")	# el formato que debe ingresar como mmdd debe ser sin guion
-		[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,alturas] = Trazador_Rayos(
-				Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-				fc, row['elevation'], row['azimuth'], Anio,mmdd, UTI, row['hora'],plot = False)
-		
-		df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
-				fc, row['elevation'], row['azimuth'], Anio, row['mmdd'], UTI, row['hora'],Retardo, Rango_Terrestre, Rango_oblicuo,
-				Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,alturas)
-		
-		fn.add_to_excel(dir="./new_dataset.xlsx", line_df=df)
+		if idx >= 937:
+			print(f"Fila {idx}: fc={row['fc']}, elevation={row['elevation']}, azimuth={row['azimuth']}, mmdd={row['mmdd']}, hora={row['hora']}")
+			fc = float(row["fc"])								# Por lo que se lee el formato de fc debe ser float
+			mmdd = row["mmdd"].replace("-","")	# el formato que debe ingresar como mmdd debe ser sin guion
+			[Retardo, Rango_Terrestre, Rango_oblicuo, Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,alturas] = Trazador_Rayos(
+					Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+					fc, row['elevation'], row['azimuth'], Anio,mmdd, UTI, row['hora'],plot = False)
+			
+			df = fn.generate_dataframe(Posicion_Tx.Latitud,Posicion_Tx.Longitud,Posicion_Tx.Altitud,
+					fc, row['elevation'], row['azimuth'], Anio, row['mmdd'], UTI, row['hora'],Retardo, Rango_Terrestre, Rango_oblicuo,
+					Lat_Final,Lon_Final, Alt_Final,latitudes,longitudes,alturas)
+			
+			fn.add_to_excel(dir="./new_dataset.xlsx", line_df=df)
 
 # INICIO    
 if __name__ == '__main__':
