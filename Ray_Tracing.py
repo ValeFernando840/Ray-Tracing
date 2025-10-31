@@ -232,7 +232,7 @@ def main():
 	df_solicitudes = pd.read_excel('./Solicitudes.xlsx')
 	# float Trazo_Rayos(float fc,float Lat_Tx, float Lon_Tx,string Fecha,float Rz)
 	for idx,row in df_solicitudes.iterrows():
-		if idx >=15965:
+		if idx >=18100:  # 17384
 			print(f"Fila {idx}: fc={row['fc']}, elevation={row['elevation']}, azimuth={row['azimuth']}, mmdd={row['mmdd']}, hora={row['hora']}")
 			fc = float(row["fc"])								# Por lo que se lee el formato de fc debe ser float
 			mmdd = row["mmdd"].replace("-","")	# el formato que debe ingresar como mmdd debe ser sin guion
