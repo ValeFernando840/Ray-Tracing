@@ -1,4 +1,5 @@
 # Archivos y carpetas generados debido a cada corrida. No es necesario subirlos al repositorio.
+Scalers_Models/
 DATASET.xlsx
 x_test_new.xlsx
 x_train_new.xlsx
