@@ -10,3 +10,4 @@ scikit-learn
 tensorflow
 geopy
 simplekml
+fitter
